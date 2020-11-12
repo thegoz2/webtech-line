@@ -40,18 +40,9 @@
 .circle{
     border-radius: 15px;
     padding: 5px;
+    background-color:rgb(43, 42, 42);;
+    border: solid 0.5px rgb(211,211,211);
    
-}
-.has-search .form-control-feedback {
-    position: absolute;
-    
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
 }
 
 .has-search .form-control {
