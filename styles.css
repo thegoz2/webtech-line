@@ -29,7 +29,7 @@
 
 
 #prestick{
-    border-right: 1px solid rgb(211,211,211);
+    border-right: 1.5px solid rgb(211,211,211);
 }
 
 
@@ -58,4 +58,35 @@
     text-align: right;
     pointer-events: none;
     color: rgb(100, 100, 100);
+}
+.right{
+    position: absolute;
+    width: 1000px;
+    left:1070px;
+}
+.sl{
+    top:-18px;
+    border-right: 0.5px solid rgb(100,100,100);
+    height: 13px;
+    width: 75px;
+}
+.colorg{
+    color:rgb(100, 100, 100);
+    font-size: 13px;
+}
+.colorg:hover{
+    color: rgb(100, 100, 100);
+   
+}
+
+.fixp{
+position: absolute;
+top:-18px;
+
+left:80px;
+}
+#fixp2{position: absolute;
+  top: -5px;
+ 
+
 }
