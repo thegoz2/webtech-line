@@ -1,0 +1,32 @@
+.space{
+    margin-top: 20px;
+}
+.cblack{
+    color:black;
+    
+}
+.cblack:hover{
+    color:#00B900;
+    text-decoration: none;
+}
+.margin-1{
+    margin-left: 30px;
+}
+.cgray{
+    color:rgb(230, 230, 230);
+    font-size: 14px;
+}
+.vl {
+    border-right: 1px solid rgb(211,211,211);
+    height: 1000px;
+    width: 180px;
+
+   
+}
+img{
+    border: 0;
+    vertical-align: top;
+}  
+.label{
+    float: left;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <div class="label1">
+            <img src="http://10.0.15.12/it/62070217/project/label/1.png" width="1082"
+            height="240" />
+        </div>
+    <div id="input"></div>
+
+    <script>
+        let requestURL = 'sticker.json';
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                dataReportStatus(JSON.parse(request.responseText));
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        function dataReportStatus(data) {
+            var put = "";
+
+            for (var j = 0; j < data.members.length; j++) {
+                put += "<br><img id='Phead' src='" + data.members[j].Phead + "'"
+                put += "<p>" + data.members[j].name + "</br>";
+                for (var i = 0; i < data.members[j].Psticker.length; i++) {
+
+                    put += "<img id='image' src='" + data.members[j].Psticker[i] + "'<br>";
+
+                }
+            }
+            
+            document.getElementById('input').innerHTML += put;
+            console.log("test");
+        }
+
+    </script>
+    </body>
+    <div id="input"></div>
+
+    <script>
+        let requestURL = 'theme.json';
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                dataReportStatus(JSON.parse(request.responseText));
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        function dataReportStatus(data) {
+            var put = "";
+
+            for (var j = 0; j < data.members.length; j++) {
+                put += "<br><img id='Phead' src='" + data.members[j].Phead + "'"
+                put += "<p>" + data.members[j].name + "</br>";
+                for (var i = 0; i < data.members[j].Ptheme.length; i++) {
+                    if (i == 0 || i % 2 == 0)
+                    put += "<img id='image' src='" + data.members[j].Ptheme[i] + "'<br>";
+                    else
+                        put += "<img id='image' src='" + data.members[j].Ptheme[i] + "'<br><br>";
+
+                }
+            }
+
+            document.getElementById('input').innerHTML += put;
+            console.log("test");
+        }
+
+    </script>
+
+</html>
