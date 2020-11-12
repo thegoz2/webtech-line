@@ -62,7 +62,7 @@
 .right{
     position: absolute;
     width: 1000px;
-    left:1070px;
+    left:1100px;
 }
 .sl{
     top:-18px;
@@ -81,12 +81,16 @@
 
 .fixp{
 position: absolute;
-top:-18px;
+top:-9px;
 
 left:80px;
 }
 #fixp2{position: absolute;
-  top: -5px;
- 
+  top: -4px;
+left:30px;
 
+}
+#fixp3{
+    position: absolute;
+    top:-8px;
 }
