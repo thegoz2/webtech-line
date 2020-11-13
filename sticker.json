@@ -2,6 +2,9 @@
     "members": [
         {
             "name": "Shiba Inu (Shiba-Dog) stickers - vol.2",
+            "creator": "AIKO KUNINOI",
+            "description": "Soothing Shiba-dog stickers have come back! You can enjoy LINE with her smile, bow-wow!",
+            "price": "30THB",
             "Phead":"http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/head.jpg",
             "Psticker": [
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/1.jpg",
@@ -50,6 +53,9 @@
         },
         {
             "name": "N9: หมีหงุดหงิด ฮาฮา",
+            "creator": "N9 Design",
+            "description": "Mhee gud gid HaHa",
+            "price": "30THB",
             "Phead":"http://10.0.15.12/it/62070217/project/sticker/N9/head.png",
             "Psticker": [
                 "http://10.0.15.12/it/62070217/project/sticker/N9/1.png",
@@ -96,6 +102,9 @@
         },
         {
             "name": "Futoru Cat 3",
+            "creator": "daasoube",
+            "description": "Little cute Thai orange cat. Version 3! About working. Enjoy Meaw.",
+            "price": "30THB",
             "Phead":"http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/head.png",
             "Psticker": [
                 "http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/1.png",
@@ -141,6 +150,9 @@
         },
         {
             "name": "Shiba-Puppy! 2",
+            "creator": "AIKO KUNINOI",
+            "description": "The tomboyish Shiba-Puppy stickers have come back! Please have fun playing with her.",
+            "price": "30THB",
             "Phead":"http://10.0.15.12/it/62070123/project/sticker/head.jpg",
             "Psticker": [
                 "http://10.0.15.12/it/62070123/project/sticker/1.jpg",
