@@ -48,7 +48,16 @@
     border: solid 0.7px rgb(35,35,35);
    font-size: 14px;
    text-align:left;
-   color:white;
+   color:rgb(216, 216, 216);
+
+}
+.circle:hover{
+    outline: none;
+
+}
+.circle:focus{
+    outline: none;
+
 }
 
 .fa {
@@ -93,4 +102,12 @@ left:30px;
 #fixp3{
     position: absolute;
     top:-8px;
+}
+.clickshow{
+    //เดวมาทำต่อ
+}
+#image{
+    max-width: 145px;  
+    height: auto;  
+    margin: 15px;
 }
