@@ -30,8 +30,9 @@
                     <!--right side-->
                     <div class="right">
                         <div class="sl">
-                            <a class="colorg" href="https://store.line.me/wishlist/"><img id="fixp3"src="heart.png" width="25px">
-                                <p id="fixp2"style="display: inline;"> วิชลิสต์</p>
+                            <a class="colorg" href="https://store.line.me/wishlist/"><img id="fixp3" src="heart.png"
+                                    width="25px">
+                                <p id="fixp2" style="display: inline;"> วิชลิสต์</p>
                             </a>
 
                         </div>
@@ -83,19 +84,23 @@
                 <!--col2-->
                 <!--main stickers preview-->
                 <div class="col" id="prestick">
-                    <!DOCTYPE html>
-<html lang="en">
+                    <div id="input"></div>
+                </div>
+                <!DOCTYPE html>
+                <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+                <!--col3-->
+                <!--suggested stickers-->
+                <div class="col-3">
+                    <h1>Hey</h1>
+                </div>
 
-<body>
+
+            </div>
+        </div>
+    </div>
+
     <!--sticker picture detail-->
-    <div id="input"></div>
-
     <script>
         let requestURL = 'sticker.json';
         let request = new XMLHttpRequest();
@@ -110,34 +115,19 @@
         function dataReportStatus(data) {
             var put = "";
 
-           
-                for (var i = 0; i < data.members[0].Psticker.length; i++) {
 
-                    put += "<img id='image' src='" + data.members[0].Psticker[i] + "'<br>";
+            for (var i = 0; i < data.members[0].Psticker.length; i++) {
 
-                }
-            
-            
+                put += "<img id='image' src='" + data.members[0].Psticker[i] + "'<br>";
+
+            }
+
+
             document.getElementById('input').innerHTML += put;
             console.log("test");
         }
 
     </script>
-</body>
-
-</html>
-                </div>
-
-                <!--col3-->
-                <!--suggested stickers-->
-                <div class="col-3">
-                    <h1>Hey</h1>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
