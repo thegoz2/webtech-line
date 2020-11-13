@@ -83,14 +83,18 @@
 
                 <!--col2-->
                 <!--main stickers preview-->
-                <div class="col">
+                <div class="col" id="prestick">
                     <!--the sticker detail-->
-                    <div class="row" id="stickdetail">
-                        <h1>Hehe</h1>
+                    <div class="row mt-2" id="stickdetail">
+                        <div class="col-s" id="pu"></div>
+                        <div class="col mt-4" id="title"></div>
+                        
                     </div>
+                    
+
 
                     <!--stickers in pack-->
-                    <div class="row" id="prestick">
+                    <div class="row margin-1">
                         <div id="input"></div>
                     </div>
                 </div>
@@ -120,19 +124,31 @@
 
         function dataReportStatus(data) {
             var put = "";
-
+            var put2 = "";
+            var put3 = "";
 
             for (var i = 0; i < data.members[0].Psticker.length; i++) {
 
                 put += "<img id='image' src='" + data.members[0].Psticker[i] + "'<br>";
 
             }
+            put2 += "<img id='image' src='" + data.members[0].Phead + "'<br>";
+            put3 += "<h2>"+ data.members[0].name + "</h2>";
+            put3 += "<h6>"+ data.members[0].creator + "</h6>";
+            put3 += "<p>"+ data.members[0].description + "</p>";
+            put3 += "<h2>"+ data.members[0].price + "</h2>";
+            
+
 
 
             document.getElementById('input').innerHTML += put;
+            document.getElementById('pu').innerHTML += put2;
+            document.getElementById('title').innerHTML += put3;
             console.log("test");
         }
 
+        
+        
     </script>
 </body>
 

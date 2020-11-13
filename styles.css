@@ -27,6 +27,9 @@
     font-family: 'Dosis', sans-serif;
 }
 
+#stickdetail{
+    border-bottom: 1.5px solid rgb(211,211,211);
+}
 
 #prestick{
     border-right: 1.5px solid rgb(211,211,211);
