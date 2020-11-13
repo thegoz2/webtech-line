@@ -83,7 +83,49 @@
                 <!--col2-->
                 <!--main stickers preview-->
                 <div class="col" id="prestick">
-                    <h1>Hi</h1>
+                    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--sticker picture detail-->
+    <div id="input"></div>
+
+    <script>
+        let requestURL = 'sticker.json';
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                dataReportStatus(JSON.parse(request.responseText));
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        function dataReportStatus(data) {
+            var put = "";
+
+           
+                for (var i = 0; i < data.members[0].Psticker.length; i++) {
+
+                    put += "<img id='image' src='" + data.members[0].Psticker[i] + "'<br>";
+
+                }
+            
+            
+            document.getElementById('input').innerHTML += put;
+            console.log("test");
+        }
+
+    </script>
+</body>
+
+</html>
                 </div>
 
                 <!--col3-->
