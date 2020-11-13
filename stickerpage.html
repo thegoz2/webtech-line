@@ -112,7 +112,8 @@
 
         function dataReportStatus(data) {
             var put = "";
-
+            var put2 = "";
+            var put3 = "";
 
             for (var i = 0; i < data.members[0].Psticker.length; i++) {
                 if ( i % 4 == 0 || i%4 == 1 || i%4 == 2)
@@ -123,12 +124,23 @@
                
 
             }
+            put2 += "<img id='image' src='" + data.members[0].Phead + "'<br>";
+            put3 += "<h2>"+ data.members[0].name + "</h2>";
+            put3 += "<h6>"+ data.members[0].creator + "</h6>";
+            put3 += "<p>"+ data.members[0].description + "</p>";
+            put3 += "<h2>"+ data.members[0].price + "</h2>";
+            
+
 
 
             document.getElementById('input').innerHTML += put;
+            document.getElementById('pu').innerHTML += put2;
+            document.getElementById('title').innerHTML += put3;
             console.log("test");
         }
 
+        
+        
     </script>
 </body>
 
