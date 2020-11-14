@@ -29,6 +29,7 @@
 
 #stickdetail{
     border-bottom: 1.5px solid rgb(211,211,211);
+    
 }
 
 #prestick{
@@ -114,3 +115,4 @@ left:30px;
     height: auto;  
     margin: 15px;
 }
+
