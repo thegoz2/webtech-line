@@ -95,7 +95,7 @@
 
 
                     <!--stickers in pack-->
-                    <div class="row margin-1">
+                    <div class="row margin-1 mt-5 mr-1">
                         <div id="input"></div>
                     </div>
                 </div>
@@ -130,14 +130,14 @@
 
             for (var i = 0; i < data.members[0].Psticker.length; i++) {
                 if (i % 4 == 0 || i % 4 == 1 || i % 4 == 2)
-                    put += "<img  class='clickshow' id='image' src='" + data.members[0].Psticker[i] + "'<br>";
+                    put += "<img  class='clickshow' id='image' src='" + data.members[0].Psticker[i] + "'onclick='bigger()'<br>";
                 else
                     put += "<img class='clickshow' id='image' src='" + data.members[0].Psticker[i] + "'<br><br>";
 
 
 
             }
-            put2 += "<img id='image' src='" + data.members[0].Phead + "'<br>";
+            put2 += "<img id='imageh' src='" + data.members[0].Phead + "'<br>";
             put3 += "<h2>" + data.members[0].name + "</h2>";
             put3 += "<h6>" + data.members[0].creator + "</h6>";
             put3 += "<p>" + data.members[0].description + "</p>";
@@ -151,8 +151,6 @@
             document.getElementById('title').innerHTML += put3;
             console.log("test");
         }
-
-
 
     </script>
 </body>
