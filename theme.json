@@ -59,7 +59,37 @@
                 
                 
             ]
-        }
+        },
+        {
+            "name": "Hanako เพื่อนคู่ซี้",
+            "creator": "kiki",
+            "description": "ธีมน่ารักจาก Hanako กับเจ้าหมีเพื่อนคู่ซี้ที่สนิทกันมากมาย * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "price": "90THB",
+            "Phead":"http://10.0.15.12/it/62070217/project/theme/Hanako/head.png",
+            "Ptheme": ["http://10.0.15.12/it/62070217/project/theme/Hanako/1.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/2.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/3.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/4.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/5.png"                    
+                
+                
+            ]
+        },
+        {
+            "name": "Shiro ไปจ่ายตลาดกันเถอะ",
+            "creator": "tomoko ishii",
+            "description": "Shiro มีธีมทางการชุดแรกแล้วนะทุกคน! จัดไปด้วยรูปที่วาดขึ้นมาสำหรับธีมชุดนี้โดยเฉพาะ ดีไซน์จ่ายตลาด ซื้อของน่าอร่อยมาเพียบเลย! * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "price": "90THB",
+            "Phead":"http://10.0.15.12/it/62070217/project/theme/Shiro/head.png",
+            "Ptheme": ["http://10.0.15.12/it/62070217/project/theme/Shiro/1.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/2.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/3.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/4.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/5.png"                    
+                
+                
+            ]
+        },
         
         
         
