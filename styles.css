@@ -5,6 +5,10 @@
     color:black;
     font-size: 13px;
 }
+.cblack1{
+    color:black;
+    font-size: 16px;
+}
 .cblack:hover{
     color:#00B900;
     text-decoration: none;
@@ -25,9 +29,6 @@
     float: left;
     margin: 25px 0 0 30px;
     font-family: 'Dosis', sans-serif;
-}
-#prce{
-    color:#00B900;
 }
 
 #author{
@@ -176,6 +177,18 @@ left:30px;
 
 }
 
+#imageh2{
+    width: 70px;
+}
+
+#fontset{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+}
+#p2{
+    display: inline;
+}
 #chlang{
     position: absolute;
     right: 50px;
