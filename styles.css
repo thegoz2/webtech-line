@@ -30,9 +30,6 @@
     margin: 25px 0 0 30px;
     font-family: 'Dosis', sans-serif;
 }
-#prce{
-    color:#00B900;
-}
 
 #author{
     text-decoration: underline;
@@ -206,5 +203,7 @@ footer
         padding: 10px;
         padding-top: 20px;
     }
- 
+    #prce{
+        color:#00B900;
+    }
 
