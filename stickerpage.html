@@ -87,23 +87,45 @@
 
                     <!--the sticker detail-->
                     <div class="row mt-2" id="stickdetail">
-                        <div class="col-s" id="pu"></div>
-                        <div class="col mt-4" id="title"></div>
-                        
+                        <div class="col-s" id="pu">
+
+                        </div>
+                        <div class="col mt-4" id="title">
+
+                        </div>
+
                     </div>
+
 
 
 
                     <!--stickers in pack-->
-                    <div class="row margin-1 mt-5 mr-1">
-                        <div id="input"></div>
+                    <div class="container">
+                        <div class="row margin-1 mt-5 ">
+                            <div id="input"></div>
+                        </div>
                     </div>
+
                 </div>
 
                 <!--col3-->
                 <!--suggested stickers-->
-                <div class="col-3">
-                    <h1>Hey</h1>
+                <div class="col-3 mt-4 ">
+                    <p class="cblack1"><strong>ผลงานชุดอื่นจากไลน์<br>LINE</strong></p>
+                    <div class="row ">
+
+
+
+                        
+                        <div class="col-s ml-3 " id="hname">
+
+                        </div>
+                        <div class="col-7 mt-2" id="hname2">
+
+                        </div>
+
+
+                    </div>
                 </div>
 
 
@@ -127,6 +149,8 @@
             var put = "";
             var put2 = "";
             var put3 = "";
+            var put4 = "";
+            var put5 = "";
 
             for (var i = 0; i < data.members[0].Psticker.length; i++) {
                 if (i % 4 == 0 || i % 4 == 1 || i % 4 == 2)
@@ -137,6 +161,12 @@
 
 
             }
+            for (var j = 0; j < data.members.length; j++) {
+                put4 += "<a href='"+data.members[j].linkweb+"'><img   id='imageh2' src='" + data.members[j].Phead + "'><br><br>";
+                put5 += "<a href='"+data.members[j].linkweb+"'><p id='fontset'>" + data.members[j].name + "</p></a><br><br>";
+                console.log("looptest");
+
+            }
             put2 += "<img id='imageh' src='" + data.members[0].Phead + "'<br>";
             put3 += "<h2>" + data.members[0].name + "</h2>";
             put3 += "<h6>" + data.members[0].creator + "</h6>";
@@ -145,11 +175,13 @@
 
 
 
-
             document.getElementById('input').innerHTML += put;
             document.getElementById('pu').innerHTML += put2;
             document.getElementById('title').innerHTML += put3;
-            console.log("test");
+            document.getElementById('hname').innerHTML += put4;
+            document.getElementById('hname2').innerHTML += put5;
+
+
         }
 
     </script>

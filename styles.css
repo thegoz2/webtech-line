@@ -5,6 +5,10 @@
     color:black;
     font-size: 13px;
 }
+.cblack1{
+    color:black;
+    font-size: 16px;
+}
 .cblack:hover{
     color:#00B900;
     text-decoration: none;
@@ -124,3 +128,12 @@ left:30px;
 
 }
 
+#imageh2{
+    width: 70px;
+}
+
+#fontset{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+}
