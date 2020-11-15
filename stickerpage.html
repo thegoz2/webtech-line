@@ -15,7 +15,7 @@
 
 <body>
     <div class="margin-0">
-        <div class="container-fluid">
+        <div class="col">
             <div class="row" style="background-color:rgb(47, 49, 47);">
                 <!--Head bar-->
                 <nav class="navbar" style="background-color: rgb(47, 49, 47);">
@@ -115,6 +115,7 @@
                         <a href=""><p id="p2"class="margin-0" style="display:inline;">รายงานปัญหา</p></a>
                         </center>
                     </div>
+
                 </div>
 
            
@@ -138,10 +139,12 @@
 
                 </div>
             </div>
-
+                  
+            </div>
+    
         </div>
+    
         </div>
-    </div>
     </div>
 
     <!--sticker picture detail-->
@@ -180,9 +183,14 @@
             }
             put2 += "<img id='imageh' src='" + data.members[0].Phead + "'<br>";
             put3 += "<h2>" + data.members[0].name + "</h2>";
-            put3 += "<h6>" + data.members[0].creator + "</h6>";
-            put3 += "<p>" + data.members[0].description + "</p>";
-            put3 += "<h2>" + data.members[0].price + "</h2>";
+            put3 += "<h6 id='author'>" + data.members[0].creator + "</h6>";
+            put3 += "<p>" + data.members[0].description+ "</p>";
+            put3 += "<h2>" + data.members[0].price + "<a class='likebutton'>" + "</a>" + "</h2>";
+            
+            put3 += "<button class='button'>" + 'ส่งของขวัญ' + "</button>";  
+            put3 += "<button class='button2'>" + 'ซื้อ' + "</button>";  
+
+
 
 
 
