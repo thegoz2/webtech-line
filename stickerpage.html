@@ -14,8 +14,11 @@
 </head>
 
 <body>
+    <!--wrap all contents like container-->
+
+
     <div class="margin-0">
-        <div class="col">
+        <div class="container-fluid">
             <div class="row" style="background-color:rgb(47, 49, 47);">
                 <!--Head bar-->
                 <nav class="navbar" style="background-color: rgb(47, 49, 47);">
@@ -108,8 +111,33 @@
 
 
             </div>
+            <!--footer-->
+            <footer>
+                <ul>
+
+                    <a style="cursor: pointer; color:#707072; font-size: 12px;">Terms and Conditions of Use</a>
+                    <a style="padding-left:5px; cursor: pointer; color:#707072; font-size: 12px;">| Privacy Policy</a>
+                    <a style="padding-left:5px; color:#707072; font-size: 12px;">| © LINE Corporation</a>
+                        <select id="chlang">
+                            <option>ภาษาไทย</option>
+                            <option>日本語</option>
+                            <option>English</option>
+                            <option>中文(語言)</option>
+                            <option>한국어</option>
+                            <option>Bahasa Indonesia</option>
+                            <option>Deutsch</option>
+                            <option>Fracais</option>
+                            <option>Italiano</option>
+                            <option>Portugues brasileiro</option>
+                            <option>Espanol</option>
+                        </select>
+
+                </ul>
+            </footer>
         </div>
+
     </div>
+
 
     <!--sticker picture detail-->
     <script>
@@ -140,11 +168,11 @@
             put2 += "<img id='imageh' src='" + data.members[0].Phead + "'<br>";
             put3 += "<h2>" + data.members[0].name + "</h2>";
             put3 += "<h6 id='author'>" + data.members[0].creator + "</h6>";
-            put3 += "<p>" + data.members[0].description+ "</p>";
-            put3 += "<h2>" + data.members[0].price + "<a class='likebutton'>" + "</a>" + "</h2>";
-            
-            put3 += "<button class='button'>" + 'ส่งของขวัญ' + "</button>";  
-            put3 += "<button class='button2'>" + 'ซื้อ' + "</button>";  
+            put3 += "<p>" + data.members[0].description + "</p>";
+            put3 += "<h2 id='prce'>" + data.members[0].price + "<a class='likebutton'>" + "</a>" + "</h2>";
+
+            put3 += "<button class='button'>" + 'ส่งของขวัญ' + "</button>";
+            put3 += "<button class='button2'>" + 'ซื้อ' + "</button>";
 
 
 

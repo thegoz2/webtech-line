@@ -26,6 +26,9 @@
     margin: 25px 0 0 30px;
     font-family: 'Dosis', sans-serif;
 }
+#prce{
+    color:#00B900;
+}
 
 #author{
     text-decoration: underline;
@@ -172,4 +175,20 @@ left:30px;
     margin: 15px;
 
 }
+
+#chlang{
+    position: absolute;
+    right: 50px;
+}
+
+footer 
+    {
+        text-align: left;
+        position: relative;
+        border-top: 1px solid #e6e6e6;
+        background-color: #fafcff;
+        padding: 10px;
+        padding-top: 20px;
+    }
+ 
 
