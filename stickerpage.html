@@ -109,10 +109,14 @@
 
 
                         </div><center>
-                        <p>Copyright © 2014 AIKO KUNINOI All Rights Reserved.</p>
+                        <div id='credith'></div>
                  
-                        <a href=""><p id="p2">หมายเหตุเกี่ยวกับการใช้งาน</p></a>
+                        <a href=""><p id="p2" >หมายเหตุเกี่ยวกับการใช้งาน</p></a>
                         <a href=""><p id="p2"class="margin-0" style="display:inline;">รายงานปัญหา</p></a>
+                        <br><br>
+                        <a href="" class="wenwa"><img src="linecontract2.png" width="45px"></a>
+                        <a href="" class="wenwa"><img src="twittercontract.png" width="45px"></a>
+                        <a href="" class="wenwa"><img src="facebookcontract.png" width="45px"></a>
                         </center>
                     </div>
                 </div>
@@ -182,12 +186,14 @@
             var put3 = "";
             var put4 = "";
             var put5 = "";
+            var put6 = "";
+            var choose = 0;
 
-            for (var i = 0; i < data.members[0].Psticker.length; i++) {
+            for (var i = 0; i < data.members[choose].Psticker.length; i++) {
                 if (i % 4 == 0 || i % 4 == 1 || i % 4 == 2)
-                    put += "<img  class='clickshow' id='image' src='" + data.members[0].Psticker[i] + "'onclick='bigger()'<br>";
+                    put += "<img  class='clickshow' id='image' src='" + data.members[choose].Psticker[i] + "'onclick='bigger()'<br>";
                 else
-                    put += "<img class='clickshow' id='image' src='" + data.members[0].Psticker[i] + "'<br><br>";
+                    put += "<img class='clickshow' id='image' src='" + data.members[choose].Psticker[i] + "'<br><br>";
 
 
 
@@ -198,15 +204,15 @@
                 console.log("looptest");
 
             }
-            put2 += "<img id='imageh' src='" + data.members[0].Phead + "'<br>";
-            put3 += "<h2>" + data.members[0].name + "</h2>";
-            put3 += "<h6 id='author'>" + data.members[0].creator + "</h6>";
-            put3 += "<p>" + data.members[0].description+ "</p>";
-            put3 += "<h2 style='color:#00B900'>" + data.members[0].price + "<a class='likebutton'>" + "</a>" + "</h2>";
+            put2 += "<img id='imageh' src='" + data.members[choose].Phead + "'<br>";
+            put3 += "<h2>" + data.members[choose].name + "</h2>";
+            put3 += "<h6 id='author'>" + data.members[choose].creator + "</h6>";
+            put3 += "<p>" + data.members[choose].description+ "</p>";
+            put3 += "<h2 style='color:#00B900'>" + data.members[choose].price + "<a class='likebutton'>" + "</a>" + "</h2>";
             
             put3 += "<button class='button'>" + 'ส่งของขวัญ' + "</button>";  
             put3 += "<button class='button2'>" + 'ซื้อ' + "</button>";  
-
+            put6 += "<p class='texts'>"+data.members[choose].credit+"</p>"
 
 
 
@@ -216,6 +222,7 @@
             document.getElementById('title').innerHTML += put3;
             document.getElementById('hname').innerHTML += put4;
             document.getElementById('hname2').innerHTML += put5;
+            document.getElementById('credith').innerHTML += put6;
 
 
         }

@@ -85,7 +85,7 @@
         overflow: hidden;
         background-repeat: no-repeat;
         text-align: right;
-        margin-left: 60%;
+        margin-left: 230px;
         width: 37px;
         height: 37px;
         background-image: url(หัวใจ.png);
@@ -188,6 +188,10 @@ left:30px;
 }
 #p2{
     display: inline;
+    color: grey;
+    text-decoration: underline;
+    font-size: 8px;
+    
 }
 #chlang{
     position: absolute;
@@ -206,4 +210,12 @@ footer
     #prce{
         color:#00B900;
     }
-
+.texts{
+    font-size: 9px;
+    color:gray ;
+    margin-bottom: 2px;
+}
+.wenwa{
+    margin-left: 10px;
+   
+}
