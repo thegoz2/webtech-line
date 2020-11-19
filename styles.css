@@ -85,7 +85,7 @@
         overflow: hidden;
         background-repeat: no-repeat;
         text-align: right;
-        margin-left: 60%;
+        margin-left: 390px;
         width: 37px;
         height: 37px;
         background-image: url(หัวใจ.png);
@@ -128,7 +128,7 @@
 .right{
     position: absolute;
     width: 1000px;
-    left:1100px;
+    left:1350px;
 }
 .sl{
     top:-18px;
@@ -147,22 +147,23 @@
 
 .fixp{
 position: absolute;
-top:-9px;
+top:-8px;
 
-left:80px;
+left:15px;
 }
 #fixp2{position: absolute;
   top: -4px;
-left:30px;
+left:80px;
 
 }
 #fixp3{
     position: absolute;
     top:-8px;
+    left:-15px;
 }
 
 #image{
-    width: 140px;  
+    width: 160px;  
     height: auto;  
     margin: 15px;
 }
@@ -170,6 +171,7 @@ left:30px;
     transform: scale(1.5);
  
 }
+
 #imageh{
     width:250px;  
     height: auto;  
@@ -188,6 +190,10 @@ left:30px;
 }
 #p2{
     display: inline;
+    color: grey;
+    text-decoration: underline;
+    font-size: 8px;
+    
 }
 #chlang{
     position: absolute;
@@ -206,4 +212,16 @@ footer
     #prce{
         color:#00B900;
     }
-
+.texts{
+    font-size: 9px;
+    color:gray ;
+    margin-bottom: 2px;
+}
+.wenwa{
+    margin-left: 10px;
+   
+}
+#input{position: relative;
+    left:50px;
+    margin:-25px;
+}
