@@ -85,7 +85,7 @@
         overflow: hidden;
         background-repeat: no-repeat;
         text-align: right;
-        margin-left: 440px;
+        margin-left: 390px;
         width: 37px;
         height: 37px;
         background-image: url(หัวใจ.png);
@@ -163,13 +163,17 @@ left:80px;
 }
 
 #image{
-    width: 350px;  
+    width: 160px;  
     height: auto;  
     margin: 15px;
 }
+#image:hover{
+    transform: scale(1.5);
+ 
+}
 
 #imageh{
-    width:190px;  
+    width:250px;  
     height: auto;  
     margin: 15px;
 
@@ -216,4 +220,8 @@ footer
 .wenwa{
     margin-left: 10px;
    
+}
+#input{position: relative;
+    left:50px;
+    margin:-25px;
 }
