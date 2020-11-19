@@ -2,288 +2,302 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Line.Store.ME</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Line.Store.ME</title>
 </head>
 <style>
-    * {box-sizing: border-box}
-   
-    .mySlides {position:relative;
-        display: none;
-        left:-170px;
+  * {
+    box-sizing: border-box
+  }
+
+  .mySlides {
+    position: relative;
+    display: none;
+    left: -170px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .topleft {
+    position: absolute;
+    margin-left: 110px;
+  }
+
+  /* Slideshow container */
+
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+
+
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
     }
-    img {vertical-align: middle;}
-    .topleft{
-        position: absolute;
-        top:0px;
-        right:100px;
+
+    to {
+      opacity: 1
     }
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
     }
-    
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
+
+    to {
+      opacity: 1
     }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-    
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-    
-    /* Number text (1/3 etc) */
-    
-    
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 8px;
-      width: 8px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-    
-    .active, .dot:hover {
-      background-color: #717171;
-    }
-    
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 2s;
-      animation-name: fade;
-      animation-duration: 2s;
-    
-      
-    }
-    
-    @-webkit-keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }
-    
-    @keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }
-    
-   
-    </style>
+  }
+</style>
+
 <body>
-    <div class="margin-0">
-        <div class="col">
-            <div class="row" style="background-color:rgb(47, 49, 47);">
-                <!--Head bar-->
-                <nav class="navbar" style="background-color: rgb(47, 49, 47);">
-                    <!--logo-->
-                    <a href="store.line.me"><img src="logo.png" width="165px"></img></a>
-                    <!--left side-->
-                    <div class="form-group">
-                        <input type="text" class="circle" placeholder="  ค้นหา..">
-                        <span class="fa fa-search fa-lg" aria-hidden="true"></span>
+  <div class="margin-0">
+    <div class="col">
+      <div class="row" style="background-color:rgb(47, 49, 47);">
+        <!--Head bar-->
+        <nav class="navbar" style="background-color: rgb(47, 49, 47);">
+          <!--logo-->
+          <a href="store.line.me"><img src="logo.png" width="165px"></img></a>
+          <!--left side-->
+          <div class="form-group">
+            <input type="text" class="circle" placeholder="  ค้นหา..">
+            <span class="fa fa-search fa-lg" aria-hidden="true"></span>
 
-                    </div>
-                    <!--right side-->
-                    <div class="right">
-                        <div class="sl">
-                            <a class="colorg" href="https://store.line.me/wishlist/"><img id="fixp3" src="heart.png"
-                                    width="25px">
-                                <p id="fixp2" style="display: inline;"> วิชลิสต์</p>
-                            </a>
-
-                        </div>
-                        <div class="fixp">
-                            <a class="colorg" href="https://store.line.me/wishlist/">
-                                <p style="display: inline;"> เข้าสู่ระบบ</p>
-                        </div>
-                    </div>
-
+          </div>
+          <!--right side-->
+          <div class="right">
+            <div class="sl">
+              <a class="colorg" href="https://store.line.me/wishlist/"><img id="fixp3" src="heart.png" width="25px">
+                <p id="fixp2" style="display: inline;"> วิชลิสต์</p>
+              </a>
 
             </div>
-
-            <div class="row margin-1">
-                <!--col1-->
-                <!--sidemenu-->
-                <div class="vl">
-                    <nav id="">
-
-                        <ul class="list-unstyled ">
-                            <p></p>
-                            <li class="space" style="font-size: 12px;">
-                                <a style="color: rgb(211,211,211);"><strong> ซื้อ</strong> </a>
-                            </li>
-                            <li class="space">
-                                <a class="cblack"
-                                    href="https://store.line.me/stickershop/product/11832683/th"><strong>สติกเกอร์ทางการ</strong></a>
-
-                            </li>
-                            <li class="space">
-                                <a class="cblack"
-                                    href="https://store.line.me/stickershop/product/11832683/th"><strong>ครีเอเตอร์สติกเกอร์</strong></a>
-                            </li>
-
-
-                            <li class="space">
-                                <a class="cblack"
-                                    href="https://store.line.me/stickershop/product/11832683/th"><strong>อิโมจิทางการ</strong></a>
-                            </li>
-                            <li class="space">
-                                <a class="cblack"
-                                    href="https://store.line.me/stickershop/product/11832683/th"><strong>ครีเอเตอร์อิโมจิ</strong></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <!--col2-->
-                <!--main stickers preview-->
-                <div class="col" id="prestick">
-                    <div class="slideshow-container">
-
-                        <!-- Full-width images with number and caption text -->
-                        <div class="mySlides fade">
-                          <img src="slide1.jpg" style="width:1350px" class="d-block">
-                        </div>
-                      
-                        <div class="mySlides fade">
-                          <img src="slide2.jpg" style="width:1350px" class="d-block">
-                        </div>
-                      
-                        <div class="mySlides fade">
-                          <img src="slide3.jpg" style="width:1350px" class="d-block">
-                        </div>
-                        <div class="mySlides fade">
-                            <img src="slide4.jpg" style="width:1350px" class="d-block">
-                          </div>
-                      
-                        <!-- Next and previous buttons -->
-                        
-                      </div>
-                      <br>
-                      
-                      <!-- The dots/circles -->
-                      <div class="topleft">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                      </div>
-                    <!--col3-->
-                    <!--suggested stickers-->
-                    <div class="col1">
-                        <strong>สติกเกอร์ทางการ</strong>
-                        <!--sticker-->
-                        <hr>
-                    </div>
-
-                    <!--col4-->
-                    <!--suggested stickers-->
-                    <div class="col1">
-                        <strong>ครีเอเตอร์สติกเกอร์</strong>
-                        <!--sticker-->
-                        <hr>
-                    </div>
-
-                    <!--col5-->
-                    <!--suggested theme-->
-                    <div class="col1">
-                        <strong>ธีมทางการ</strong>
-                        <!--theme-->
-                        <hr>
-                    </div>
-
-                    <!--col6-->
-                    <!--suggested theme-->
-                    <div class="col1">
-                        <strong>ครีเอเตอร์ธีม</strong>
-                        <!--theme-->
-                        <hr>
-                    </div>
-                </div>
-
-
-
+            <div class="fixp">
+              <a class="colorg" href="https://store.line.me/wishlist/">
+                <p style="display: inline;"> เข้าสู่ระบบ</p>
             </div>
+          </div>
+
+
+      </div>
+
+      <div class="row margin-1">
+        <!--col1-->
+        <!--sidemenu-->
+        <div class="vl">
+          <nav id="">
+
+            <ul class="list-unstyled ">
+              <p></p>
+              <li class="space" style="font-size: 12px;">
+                <a style="color: rgb(211,211,211);"><strong> ซื้อ</strong> </a>
+              </li>
+              <li class="space">
+                <a class="cblack"
+                  href="https://store.line.me/stickershop/product/11832683/th"><strong>สติกเกอร์ทางการ</strong></a>
+
+              </li>
+              <li class="space">
+                <a class="cblack"
+                  href="https://store.line.me/stickershop/product/11832683/th"><strong>ครีเอเตอร์สติกเกอร์</strong></a>
+              </li>
+
+
+              <li class="space">
+                <a class="cblack"
+                  href="https://store.line.me/stickershop/product/11832683/th"><strong>อิโมจิทางการ</strong></a>
+              </li>
+              <li class="space">
+                <a class="cblack"
+                  href="https://store.line.me/stickershop/product/11832683/th"><strong>ครีเอเตอร์อิโมจิ</strong></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+
+        <!--col2-->
+        <!--main stickers preview-->
+        <div class="col" id="prestick">
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="slide1.jpg" style="width:100%" class="d-block">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="slide2.jpg" style="width:100%" class="d-block">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="slide3.jpg" style="width:100%" class="d-block">
+            </div>
+            <div class="mySlides fade">
+              <img src="slide4.jpg" style="width:100%" class="d-block">
+            </div>
+
+            <!-- Next and previous buttons -->
+
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div class="topleft">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+          <!--col3-->
+          <!--suggested stickers-->
+          <div class="col">
+            <strong>สติกเกอร์ทางการ</strong>
+            <!--sticker-->
+            <hr>
+          </div>
+
+          <!--col4-->
+          <!--suggested stickers-->
+          <div class="col">
+            <strong>ครีเอเตอร์สติกเกอร์</strong>
+            <!--sticker-->
+            <hr>
+          </div>
+
+          <!--col5-->
+          <!--suggested theme-->
+          <div class="col">
+            <strong>ธีมทางการ</strong>
+            <!--theme-->
+            <hr>
+          </div>
+
+          <!--col6-->
+          <!--suggested theme-->
+          <div class="col">
+            <strong>ครีเอเตอร์ธีม</strong>
+            <!--theme-->
+            <hr>
+          </div>
+        </div>
+
+
+
+      </div>
     </div>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-              slideIndex = 1
-          }    
-          if (n < 1) {
-              slideIndex = slides.length
-              }
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {
-              slideIndex = 1
-              } 
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          
-          setTimeout(showSlides, 4000);
-        }
-        </script>
+  </div>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+
+      setTimeout(showSlides, 4000);
+    }
+  </script>
 </body>
 
 </html>
