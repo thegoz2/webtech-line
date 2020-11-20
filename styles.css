@@ -1,3 +1,10 @@
+.annouce{
+    cursor:pointer;
+}
+.annouce:hover{
+    text-decoration: underline;
+}
+
 .space{
     margin-top: 20px;
 }
