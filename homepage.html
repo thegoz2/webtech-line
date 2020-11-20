@@ -20,18 +20,18 @@
     display: none;
     left: -170px;
   }
+  
+  .position-slide{
+    margin-left: 155px;
+  }
 
   img {
     vertical-align: middle;
   }
 
-  .topleft {
-    position: absolute;
-    margin-left: 110px;
-  }
+ 
 
-  /* Slideshow container */
-
+ 
 
   /* Next & previous buttons */
   .prev,
@@ -72,6 +72,11 @@
     width: 100%;
     text-align: center;
   }
+  .topleft{position: absolute;
+    margin-top:-55px;
+    margin-left: 950px;
+
+  }
 
   /* Number text (1/3 etc) */
 
@@ -96,16 +101,16 @@
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 
 
   }
 
   @-webkit-keyframes fade {
     from {
-      opacity: .4
+      opacity: .5
     }
 
     to {
@@ -115,7 +120,7 @@
 
   @keyframes fade {
     from {
-      opacity: .4
+      opacity: .5
     }
 
     to {
@@ -125,7 +130,7 @@
 </style>
 
 <body>
-  <div class="margin-0">
+  <div class="margin-0"><div class="row">
     <div class="col">
       <div class="row" style="background-color:rgb(47, 49, 47);">
         <!--Head bar-->
@@ -191,23 +196,23 @@
 
         <!--col2-->
         <!--main stickers preview-->
-        <div class="col" id="prestick">
-          <div class="slideshow-container">
+        <div class="col " id="prestick">
+          <div class="position-slide">
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-              <img src="slide1.jpg" style="width:100%" class="d-block">
+              <img src="slide1.jpg" style="width:140%" >
             </div>
 
             <div class="mySlides fade">
-              <img src="slide2.jpg" style="width:100%" class="d-block">
+              <img src="slide2.jpg" style="width:140%" >
             </div>
 
             <div class="mySlides fade">
-              <img src="slide3.jpg" style="width:100%" class="d-block">
+              <img src="slide3.jpg" style="width:140%" >
             </div>
             <div class="mySlides fade">
-              <img src="slide4.jpg" style="width:100%" class="d-block">
+              <img src="slide4.jpg" style="width:140%" >
             </div>
 
             <!-- Next and previous buttons -->
@@ -259,6 +264,7 @@
 
       </div>
     </div>
+    </div>
   </div>
   <script>
     var slideIndex = 1;
@@ -270,6 +276,8 @@
 
     function currentSlide(n) {
       showSlides(slideIndex = n);
+      clearTimeout(timecount);
+     
     }
 
     function showSlides(n) {
@@ -279,7 +287,7 @@
       if (n > slides.length) {
         slideIndex = 1
       }
-      if (n < 1) {
+      if (n < 1) { 
         slideIndex = slides.length
       }
       for (i = 0; i < slides.length; i++) {
@@ -294,9 +302,12 @@
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-
-      setTimeout(showSlides, 4000);
+      
+      var timecount = setTimeout(showSlides, 6000);
+      
     }
+   
+    
   </script>
 </body>
 
