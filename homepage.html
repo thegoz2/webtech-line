@@ -293,34 +293,44 @@
             </div>
             <!--col3-->
             <!--suggested stickers-->
-            <div class="col">
-              <strong>สติกเกอร์ทางการ</strong>
-              <!--sticker-->
 
+            <div class="col">
+              <div class="row-1">
+                <strong>สติกเกอร์ทางการ</strong>
+                <br>
+                <img src="slide1.jpg " width="100px">
+                <hr class="move">
+                <!--sticker-->
+               
+              </div>
             </div>
             <hr class="move">
+
             <!--col4-->
             <!--suggested stickers-->
-            <div class="col">
-              <strong>ครีเอเตอร์สติกเกอร์</strong>
-              <!--sticker-->
-
+            <div class="row">
+              <div class="col">
+                <strong>ครีเอเตอร์สติกเกอร์</strong>
+                <!--sticker-->
+              </div>
             </div>
             <hr class="move">
             <!--col5-->
             <!--suggested theme-->
-            <div class="col">
-              <strong>ธีมทางการ</strong>
-              <!--theme-->
-
+            <div class="row">
+              <div class="col">
+                <strong>ธีมทางการ</strong>
+                <!--theme-->
+              </div>
             </div>
             <hr class="move">
             <!--col6-->
             <!--suggested theme-->
-            <div class="col">
-              <strong>ครีเอเตอร์ธีม</strong>
-              <!--theme-->
-
+            <div class="row">
+              <div class="col">
+                <strong>ครีเอเตอร์ธีม</strong>
+                <!--theme-->
+              </div>
             </div>
             <hr class="move">
           </div>
@@ -395,22 +405,25 @@
       var timecount = setTimeout(showSlides, 6000);
 
     }
-    let requestURL = ['sticker.json','theme.json'];
-        let request = new XMLHttpRequest();
-        request.onreadystatechange = function () {
-            if (request.readyState == 4 && request.status == 200) {
-                dataReportStatus(JSON.parse(request.responseText));
-            }
-        };
-        request.open("GET", requestURL, true);
-        request.send();
+    let requestURL = ['sticker.json'];
+    let request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+      if (request.readyState == 4 && request.status == 200) {
+        dataReportStatus(JSON.parse(request.responseText));
+      }
+    };
+    request.open("GET", requestURL, true);
+    request.send();
 
-        function dataReportStatus(data) {
-          var put1="";
-          for(var i=0;i<data.members.length;);
-          put1 += "<img src='"+data.members[i].Phead+"'>"
-        }
-document.getElementById.HTML
+    function dataReportStatus(data) {
+      var put1 = "";
+      for (var i = 0; i < data.members.length; i++) {
+        put1 += "<a href='" + data.members[i].linkweb + "'><img width='50px' src='" + data.members[i].Phead + "'></a>"
+        console.log("test");
+      }
+      document.getElementById('input').innerHTML += put1;
+    }
+
 
   </script>
 </body>
