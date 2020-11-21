@@ -44,7 +44,7 @@ li {
 .vl {
     border-right: 1.5px solid rgb(211,211,211);
     height: auto px;
-    width: 150px;
+    width: 250px;
 }
 #line{
     float: left;
@@ -146,11 +146,7 @@ li {
     pointer-events: none;
     color: rgb(100, 100, 100);
 }
-.right{
-    position: absolute;
-    width: 1000px;
-    left:1350px;
-}
+
 .sl{
     top:-18px;
     border-right: 0.5px solid rgb(100,100,100);
@@ -166,22 +162,7 @@ li {
    
 }
 
-.fixp{
-position: absolute;
-top:-8px;
 
-left:15px;
-}
-#fixp2{position: absolute;
-  top: -4px;
-left:80px;
-
-}
-#fixp3{
-    position: absolute;
-    top:-8px;
-    left:-15px;
-}
 
 #image{
     width: 160px;  
@@ -230,6 +211,10 @@ left:80px;
     position: absolute;
     right: 50px;
 }
+#chlang2{
+    position: absolute;
+ right:50px;
+}
 
 footer 
     {
@@ -251,6 +236,16 @@ footer
 .wenwa{
     margin-left: 10px;
    
+}
+#input{position: relative;
+    left:50px;
+    margin:-25px;
+}
+.navbar{
+    width: 100vw;
+}
+footer{
+    width:100vw;
 }
 #input, #input2, #input3, #input4{
     position: relative;
