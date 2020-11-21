@@ -323,7 +323,6 @@
               <div class="col" style="left:20px;">
                 <strong>ธีมทางการ</strong>
                 <br>
-                <br>
                 <!--theme-->
                 <ul>
                   <div class="row" id="input3"></div>
@@ -432,8 +431,8 @@
       var put2 = "";
       for (var i = 0; i < data.members.length; i++) {
 
-        put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
-        put2 += "<li class='officetheme'><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p>" + data.memberst[i].name + "</p></li>";
+        put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p style='color:#737373;''>" + data.members[i].name + "</p></li>";
+        put2 += "<li class='officetheme'><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><br><p style='color:#737373;'''>" + data.memberst[i].name + "</p></li>";
       }
 
 
