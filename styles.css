@@ -1,3 +1,17 @@
+
+li.officestick, li.officetheme{
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    margin: 20px;
+}
+
+li {
+    display: list-item;
+    list-style: none;
+    
+}
+
 .annouce{
     cursor:pointer;
 }
@@ -170,10 +184,17 @@
 #imageh2{
     width: 70px;
 }
-#imageh3{
-    width: 100px;
+#imagestick{
+    height: 120px;
+    width: 120px;
     display: inline;
 }
+#imagetheme{
+    height: 168px;
+    width: 120px;
+    display: inline;
+}
+
 #fontset{
     font-size: 12px;
     font-weight: bold;
@@ -182,7 +203,7 @@
 #p2{
     display: inline;
     color: grey;
-    text-decoration: underline;
+    text-decoration:nderline;
     font-size: 8px;
     
 }
@@ -222,4 +243,9 @@ footer
 }
 .navbar{
     width: 100vw;
+}
+#input, #input2, #input3, #input4{
+    position: relative;
+    left:-65px;
+    margin:0;
 }
