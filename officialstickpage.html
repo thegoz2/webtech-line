@@ -295,37 +295,18 @@
                         <!--suggested stickers-->
                         <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
                             <div class="col" style="left:20px;">
-                                <strong>ครีเอเตอร์สติกเกอร์</strong>
+                                <strong>สติกเกอร์ทางการใหม่ล่าสุด</strong>
+                                <br>
+                                <br>
                                 <!--sticker-->
-                            </div>
-                        </div>
-
-                        <!--col5-->
-                        <!--suggested theme-->
-                        <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
-                            <div class="col" style="left:20px;">
-                                <strong>ธีมทางการ</strong>
-                                <br>
-                                <br>
-                                <!--theme-->
                                 <ul>
-                                    <div class="row" id="input3"></div>
+                                    <div class="row" id="input2"></div>
                                 </ul>
                                 <br>
-                                <br>
-
                             </div>
                         </div>
 
-                        <!--col6-->
-                        <!--suggested theme-->
-                        <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
-                            <div class="col" style="left:20px;">
-                                <strong>ครีเอเตอร์ธีม</strong>
-                                <!--theme-->
-                            </div>
-                        </div>
-
+                       
                     </div>
 
 
@@ -362,45 +343,7 @@
     </div>
 
     <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-            clearTimeout(timecount);
-
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-
-            var timecount = setTimeout(showSlides, 6000);
-
-        }
+        
         let requestURL = 'mergeall.json';
         let request = new XMLHttpRequest();
         request.onreadystatechange = function () {
@@ -416,14 +359,14 @@
             var put2 = "";
             for (var i = 0; i < data.members.length; i++) {
 
-                put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
-                put2 += "<li class='officetheme'><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p>" + data.memberst[i].name + "</p></li>";
+                put1 += "<li><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
+                put2 += "<li><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p>" + data.memberst[i].name + "</p></li>";
             }
 
 
 
             document.getElementById('input').innerHTML += put1;
-            document.getElementById('input3').innerHTML += put2;
+            document.getElementById('input2').innerHTML += put2;
 
         }
 
