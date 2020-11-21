@@ -44,7 +44,7 @@ li {
 .vl {
     border-right: 1.5px solid rgb(211,211,211);
     height: auto px;
-    width: 150px;
+    width: 250px;
 }
 #line{
     float: left;
@@ -243,6 +243,9 @@ footer
 }
 .navbar{
     width: 100vw;
+}
+footer{
+    width:100vw;
 }
 #input, #input2, #input3, #input4{
     position: relative;
