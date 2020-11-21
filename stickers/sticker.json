@@ -483,9 +483,55 @@
         },
         {
             "name": "สติทช์",
-            "Phead":"http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png",
-            
-           
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png",          
+        },
+        {
+            "name": "BROWN&FRIENDS",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/BROWN&FRIENDS/head.png",   
+        },
+        {
+            "name": "ดารินน่ารัก",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/ดารินน่ารัก/head.png",   
+        },
+        {
+            "name": "มิริน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มิริน/head.png",   
+        },
+        {
+            "name": "มนุษย์ผัว!!",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มนุษย์ผัว!!/head.png",   
+        },
+        {
+            "name": "โควี่",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โควี่/head.png",   
+        },
+        {
+            "name": "มูนในวันที่โกรธจัด",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker//head.png",   
+        },
+        {
+            "name": "โดราเอมอน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดราเอมอน/head.png",   
+        },
+        {
+            "name": "Snoopy",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Snoopy/head.png",   
+        },
+        {
+            "name": "Useful",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Useful/head.png",   
+        },
+        {
+            "name": "Family Messages from Children to Parents",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Family/head.png",   
+        },
+        {
+            "name": "Girl's Talk in everyday life vol. 1",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Girl's/head.png",   
+        },
+        {
+            "name": "แก๊งปุยปุย",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/แก๊งปุยปุย/head.png",   
         },
         
         
