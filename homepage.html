@@ -132,7 +132,7 @@
 </style>
 
 <body>
-  <div class="margin-0 " >
+  <div class="margin-0 ">
     <div class="row">
       <div class="col">
         <div class="row" style="background-color:rgb(47, 49, 47);">
@@ -294,57 +294,54 @@
 
             <!--col3-->
             <!--suggested stickers-->
-
-            <div class="col">
-              
+            <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
+              <div class="col" style="left:20px;">
                 <strong>สติกเกอร์ทางการ</strong>
                 <br>
                 <br>
-                
+
                 <ul>
-                <div class="row" id="input"></div>
+                  <div class="row" id="input"></div>
                 </ul>
                 <br>
-                
+
                 <!--sticker-->
-               
-              
+              </div>
             </div>
-            <hr class="move">
 
             <!--col4-->
             <!--suggested stickers-->
-            <div class="row">
-              <div class="col">
+            <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
+              <div class="col" style="left:20px;">
                 <strong>ครีเอเตอร์สติกเกอร์</strong>
                 <!--sticker-->
               </div>
             </div>
-            <hr class="move">
+
             <!--col5-->
             <!--suggested theme-->
-            <div class="row">
-              <div class="col">
+            <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
+              <div class="col" style="left:20px;">
                 <strong>ธีมทางการ</strong>
                 <!--theme-->
               </div>
             </div>
-            <hr class="move">
+
             <!--col6-->
             <!--suggested theme-->
-            <div class="row">
-              <div class="col">
+            <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
+              <div class="col" style="left:20px;">
                 <strong>ครีเอเตอร์ธีม</strong>
                 <!--theme-->
               </div>
             </div>
-            <hr class="move">
+
           </div>
 
 
 
         </div>
-       
+
         <!--footer-->
         <footer>
           <ul>
@@ -370,9 +367,9 @@
         </footer>
       </div>
     </div>
-    
+
   </div>
-  
+
   <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -425,17 +422,17 @@
 
     function dataReportStatus(data) {
       var put1 = "";
-      var put2 ="";
+      var put2 = "";
       for (var i = 0; i < data.members.length; i++) {
-      
+
         put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imageh3' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
-        
-       
+
+
         console.log("test");
       }
-      put2 ="<img   id='imageh3' src='" + data.members[0].Phead + "'>"
+      put2 = "<img   id='imageh3' src='" + data.members[0].Phead + "'>"
       document.getElementById('input').innerHTML += put1;
-      
+
     }
 
 
