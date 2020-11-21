@@ -291,22 +291,24 @@
               <span class="dot" onclick="currentSlide(3)"></span>
               <span class="dot" onclick="currentSlide(4)"></span>
             </div>
+
             <!--col3-->
             <!--suggested stickers-->
 
             <div class="col">
-              <div class="row-1">
+              
                 <strong>สติกเกอร์ทางการ</strong>
                 <br>
                 <br>
-                <br>
-      
-                <div id="input"></div><br>
                 
-                <hr class="move">
+                <ul>
+                <div class="row" id="input"></div>
+                </ul>
+                <br>
+                
                 <!--sticker-->
                
-              </div>
+              
             </div>
             <hr class="move">
 
@@ -426,7 +428,7 @@
       var put2 ="";
       for (var i = 0; i < data.members.length; i++) {
       
-        put1 += "<div class='col-2'><div class='row-3'><a href='" + data.members[i].linkweb + "'><img   id='imageh3' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>'" + data.members[i].name + "</p></div></div>";
+        put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imageh3' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>'" + data.members[i].name + "</p></li>";
         
        
         console.log("test");
