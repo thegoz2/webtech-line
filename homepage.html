@@ -132,7 +132,7 @@
 </style>
 
 <body>
-  <div class="margin-0">
+  <div class="margin-0 " >
     <div class="row">
       <div class="col">
         <div class="row" style="background-color:rgb(47, 49, 47);">
@@ -298,7 +298,11 @@
               <div class="row-1">
                 <strong>สติกเกอร์ทางการ</strong>
                 <br>
-                <img src="slide1.jpg " width="100px">
+                <br>
+                <br>
+      
+                <div id="input"></div><br>
+                
                 <hr class="move">
                 <!--sticker-->
                
@@ -338,7 +342,7 @@
 
 
         </div>
-
+       
         <!--footer-->
         <footer>
           <ul>
@@ -364,7 +368,9 @@
         </footer>
       </div>
     </div>
+    
   </div>
+  
   <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -405,7 +411,7 @@
       var timecount = setTimeout(showSlides, 6000);
 
     }
-    let requestURL = ['sticker.json'];
+    let requestURL = 'sticker.json';
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
       if (request.readyState == 4 && request.status == 200) {
@@ -417,11 +423,17 @@
 
     function dataReportStatus(data) {
       var put1 = "";
+      var put2 ="";
       for (var i = 0; i < data.members.length; i++) {
-        put1 += "<a href='" + data.members[i].linkweb + "'><img width='50px' src='" + data.members[i].Phead + "'></a>"
+      
+        put1 += "<div class='col-2'><div class='row-3'><a href='" + data.members[i].linkweb + "'><img   id='imageh3' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>'" + data.members[i].name + "</p></div></div>";
+        
+       
         console.log("test");
       }
+      put2 ="<img   id='imageh3' src='" + data.members[0].Phead + "'>"
       document.getElementById('input').innerHTML += put1;
+      
     }
 
 

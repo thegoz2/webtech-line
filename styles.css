@@ -189,7 +189,10 @@ left:80px;
 #imageh2{
     width: 70px;
 }
-
+#imageh3{
+    width: 100px;
+    display: inline;
+}
 #fontset{
     font-size: 12px;
     font-weight: bold;
