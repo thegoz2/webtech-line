@@ -132,11 +132,7 @@
     pointer-events: none;
     color: rgb(100, 100, 100);
 }
-.right{
-    position: absolute;
-    width: 1000px;
-    left:1350px;
-}
+
 .sl{
     top:-18px;
     border-right: 0.5px solid rgb(100,100,100);
@@ -152,22 +148,7 @@
    
 }
 
-.fixp{
-position: absolute;
-top:-8px;
 
-left:15px;
-}
-#fixp2{position: absolute;
-  top: -4px;
-left:80px;
-
-}
-#fixp3{
-    position: absolute;
-    top:-8px;
-    left:-15px;
-}
 
 #image{
     width: 160px;  
@@ -209,6 +190,10 @@ left:80px;
     position: absolute;
     right: 50px;
 }
+#chlang2{
+    position: absolute;
+ right:50px;
+}
 
 footer 
     {
@@ -234,4 +219,7 @@ footer
 #input{position: relative;
     left:50px;
     margin:-25px;
+}
+.navbar{
+    width: 100vw;
 }
