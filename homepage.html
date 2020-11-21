@@ -299,13 +299,12 @@
                 <strong>สติกเกอร์ทางการ</strong>
                 <br>
                 <br>
-
+                <!--sticker-->
                 <ul>
                   <div class="row" id="input"></div>
                 </ul>
                 <br>
 
-                <!--sticker-->
               </div>
             </div>
 
@@ -323,7 +322,15 @@
             <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
               <div class="col" style="left:20px;">
                 <strong>ธีมทางการ</strong>
+                <br>
+                <br>
                 <!--theme-->
+                <ul>
+                  <div class="row" id="input3"></div>
+                </ul>
+                <br>
+                <br>
+
               </div>
             </div>
 
@@ -410,7 +417,7 @@
       var timecount = setTimeout(showSlides, 6000);
 
     }
-    let requestURL = 'sticker.json';
+    let requestURL = 'mergeall.json';
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
       if (request.readyState == 4 && request.status == 200) {
@@ -425,13 +432,14 @@
       var put2 = "";
       for (var i = 0; i < data.members.length; i++) {
 
-        put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imageh3' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
-
-
-        console.log("test");
+        put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
+        put2 += "<li class='officetheme'><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p>" + data.memberst[i].name + "</p></li>";
       }
-      put2 = "<img   id='imageh3' src='" + data.members[0].Phead + "'>"
+
+
+
       document.getElementById('input').innerHTML += put1;
+      document.getElementById('input3').innerHTML += put2;
 
     }
 

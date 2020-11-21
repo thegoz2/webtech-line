@@ -1,6 +1,5 @@
 
-
-li.officestick{
+li.officestick, li.officetheme{
     width: 150px;
     height: 120px;
     text-align: center;
@@ -204,11 +203,17 @@ left:80px;
 #imageh2{
     width: 70px;
 }
-#imageh3{
+#imagestick{
     height: 120px;
     width: 120px;
     display: inline;
 }
+#imagetheme{
+    height: 168px;
+    width: 120px;
+    display: inline;
+}
+
 #fontset{
     font-size: 12px;
     font-weight: bold;
@@ -247,7 +252,7 @@ footer
     margin-left: 10px;
    
 }
-#input{
+#input, #input2, #input3, #input4{
     position: relative;
     left:-65px;
     margin:0;
