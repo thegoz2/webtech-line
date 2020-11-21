@@ -4,8 +4,14 @@ li.officestick, li.officetheme{
     height: 120px;
     text-align: center;
     margin: 20px;
+    
 }
-
+li.officestick{
+    margin-bottom: 40px;
+}
+li.officetheme{
+    margin-bottom:80px ;
+}
 li {
     display: list-item;
     list-style: none;
@@ -187,6 +193,7 @@ li {
 #imagestick{
     height: 120px;
     width: 120px;
+  
     display: inline;
 }
 #imagetheme{
@@ -251,4 +258,6 @@ footer{
     position: relative;
     left:-65px;
     margin:0;
+    
+    
 }
