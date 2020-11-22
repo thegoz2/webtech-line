@@ -1,0 +1,283 @@
+p{
+    font-size: 14px;
+}
+
+strong{
+    font-size: 14px;
+}
+
+li.officestick, li.officetheme{
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    margin: 20px;
+    
+}
+li.officestick{
+    margin-bottom: 40px;
+}
+li.officetheme{
+    margin-bottom:80px ;
+}
+li {
+    display: list-item;
+    list-style: none;
+    
+}
+
+.annouce{
+    cursor:pointer;
+    font-size: 11px;
+}
+.annouce:hover{
+    text-decoration: underline;
+}
+
+.space{
+    margin-top: 20px;
+}
+.cblack{
+    color:black;
+    font-size: 13px;
+}
+.cblack1{
+    color:black;
+    font-size: 16px;
+}
+.cblack:hover{
+    color:#00B900;
+    text-decoration: none;
+}
+.margin-1{
+    margin-left: 30px;
+}
+.cgray{
+    color:rgb(230, 230, 230);
+    font-size: 14px;
+}
+.vl {
+    border-right: 1.5px solid rgb(211,211,211);
+    height: auto px;
+    width: 200px;
+}
+#line{
+    float: left;
+    margin: 25px 0 0 30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#author{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#stickdetail{
+    border-bottom: 1.5px solid rgb(211,211,211);
+    
+}
+
+#prestick{
+    border-right: 1.5px solid rgb(211,211,211);
+}
+
+
+.row1{
+    background-color: lightslategray;
+
+}
+
+.button {
+    background-color: rgb(47, 49, 47);
+    border: none;
+    width:40%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color: #4CAF50;
+    border: none;
+    width:40%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.likebutton{
+    
+        display: inline-block;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        text-align: right;
+        margin-left: 390px;
+        width: 37px;
+        height: 37px;
+        background-image: url(หัวใจ.png);
+        background-size: 37px auto;
+        cursor: pointer;
+    
+}
+
+.circle{position: absolute;
+    left: 195px;
+   padding-right: 35px;
+   height: 35px;
+    border-radius: 15px;
+    bottom:10px;
+    
+    background-color:rgb(43, 42, 42);;
+    border: solid 0.7px rgb(35,35,35);
+   font-size: 14px;
+   text-align:left;
+   color:rgb(216, 216, 216);
+
+}
+.circle:hover{
+    outline: none;
+
+}
+.circle:focus{
+    outline: none;
+
+}
+
+.fa {
+    position: absolute;
+
+    width: 205px;
+    text-align: right;
+    pointer-events: none;
+    color: rgb(100, 100, 100);
+}
+
+.sl{
+    top:-18px;
+    border-right: 0.5px solid rgb(100,100,100);
+    height: 13px;
+    width: 75px;
+}
+.colorg{
+    color:rgb(100, 100, 100);
+    font-size: 13px;
+}
+.colorg:hover{
+    color: rgb(100, 100, 100);
+   
+}
+
+
+
+#image{
+    width: 160px;  
+    height: auto;  
+    margin: 15px;
+}
+#image:hover{
+    transform: scale(1.5);
+ 
+}
+
+#imageh{
+    width:250px;  
+    height: auto;  
+    margin: 15px;
+
+}
+
+#imageh2{
+    width: 70px;
+}
+#imagestick{
+    height: 120px;
+    width: 120px;
+  
+    display: inline;
+}
+#imagetheme{
+    height: 168px;
+    width: 120px;
+    display: inline;
+}
+
+#fontset{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+}
+#p2{
+    display: inline;
+    color: grey;
+    text-decoration:nderline;
+    font-size: 8px;
+    
+}
+#chlang{
+    position: absolute;
+    right: 50px;
+}
+
+#chlang2 a{
+    font-weight:120;
+ font-size: 17px;
+}
+
+footer 
+    {
+        text-align: left;
+        position: relative;
+        border-top: 1px solid #e6e6e6;
+        background-color: #fafcff;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    #prce{
+        color:#00B900;
+    }
+.texts{
+    font-size: 9px;
+    color:gray ;
+    margin-bottom: 2px;
+}
+.wenwa{
+    margin-left: 10px;
+   
+}
+#input{position: relative;
+    left:50px;
+    margin:-25px;
+}
+
+footer{
+    width:100vw;
+}
+#input, #input2, #input3, #input4{
+    position: relative;
+    left:-65px;
+    margin:0;
+    
+    
+}
+.navbar{
+    width: 100vw;
+}
+#chlang2{
+    position: absolute;
+ right:50px;
+ 
+}
+.fa{
+    position: absolute;
+    left:170px;
+    cursor:pointer;
+}
