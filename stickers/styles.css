@@ -86,20 +86,7 @@
     cursor: pointer;
   }
 
-.likebutton{
-    
-        display: inline-block;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        text-align: right;
-        margin-left: 390px;
-        width: 37px;
-        height: 37px;
-        background-image: url(หัวใจ.png);
-        background-size: 37px auto;
-        cursor: pointer;
-    
-}
+
 
 .circle{position: absolute;
     left: 195px;
@@ -171,7 +158,7 @@ left:80px;
 
 #image{
     width: 160px;  
-    height: auto;  
+    height: 160px;  
     margin: 15px;
 }
 #image:hover{
@@ -186,15 +173,7 @@ left:80px;
 
 }
 
-#imageh2{
-    width: 70px;
-}
 
-#fontset{
-    font-size: 12px;
-    font-weight: bold;
-    color:rgb(92, 92, 92);
-}
 #p2{
     display: inline;
     color: grey;
@@ -216,6 +195,7 @@ footer
         padding: 10px;
         padding-top: 20px;
     }
+    
     #prce{
         color:#00B900;
     }
@@ -228,10 +208,7 @@ footer
     margin-left: 10px;
    
 }
-#input{position: relative;
-    left:50px;
-    margin:-25px;
-}
+
 .navbar{
     width: 100vw;
 }
@@ -239,4 +216,43 @@ footer
     position: absolute;
  right:50px;
  
+}
+#imageh2{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+#fontset{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+    margin-top: 12px;
+    margin-left:-25px ;
+}
+footer{
+    width:100vw;
+}
+.likebutton{
+    
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-left: 270px;
+    width: 37px;
+    height: 37px;
+    background-image: url(หัวใจ.png);
+    background-size: 37px auto;
+    cursor: pointer;
+
+}
+#input{position: relative;
+    left:-20px;
+    margin:0px;
+}
+.fa{
+    position: absolute;
+    left:170px;
+    cursor:pointer;
 }

@@ -27,7 +27,7 @@
                     <!--left side-->
                     <div class="form-group">
                         <input type="text" class="circle" placeholder="  ค้นหา..">
-                        <span class="fa fa-search fa-lg" aria-hidden="true"></span>
+                        <a href=""><span class="fa fa-search fa-lg" aria-hidden="true"></span></a>
 
                     </div>
                     <form id="chlang2">
@@ -204,7 +204,7 @@
                         <div class="col-s ml-3 " id="hname">
 
                         </div>
-                        <div class="col-7 mt-2" id="hname2">
+                        <div class="col-5 mt-2" id="hname2">
 
                         </div>
 
@@ -268,7 +268,7 @@
 
                 }
                 for (var j = 0; j < data.members.length; j++) {
-                    put4 += "<a href='" + data.members[j].linkweb + "'><img   id='imageh2' src='" + data.members[j].Phead + "'><br><br>";
+                    put4 += "<div class='col'><div clss='row'><a href='" + data.members[j].linkweb + "'><img   id='imageh2' src='" + data.members[j].Phead + "'></div></div>";
                     put5 += "<a href='" + data.members[j].linkweb + "'><p id='fontset'>" + data.members[j].name + "</p></a><br><br>";
                     console.log("looptest");
 
@@ -281,7 +281,7 @@
 
                 put3 += "<button class='button'>" + 'ส่งของขวัญ' + "</button>";
                 put3 += "<button class='button2'>" + 'ซื้อ' + "</button>";
-                put6 += "<p class='texts'>" + data.members[choose].credit + "</p>"
+                put6 += "<p class='texts'>" + data.members[choose].Credit + "</p>"
 
 
 
