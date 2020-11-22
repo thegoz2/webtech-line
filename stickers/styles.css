@@ -50,6 +50,7 @@
 
 #prestick{
     border-right: 1.5px solid rgb(211,211,211);
+    width:1200px ;
 }
 
 
@@ -159,7 +160,7 @@ left:80px;
 #image{
     width: 145px;  
     height: 145px;  
-    margin: 15px;
+    margin: 20px;
 }
 #image:hover{
     transform: scale(1.5);
@@ -168,7 +169,7 @@ left:80px;
 
 #imageh{
     width:250px;  
-    height: auto;  
+    height: 250px;  
     margin: 15px;
 
 }
@@ -240,8 +241,7 @@ footer{
     cursor:pointer;
 }
 #input{position: relative;
-    left:-20px;
-    margin:0px;
+    margin-left:20px ;
 }
 .likebutton{
     
@@ -249,7 +249,7 @@ footer{
     overflow: hidden;
     background-repeat: no-repeat;
     text-align: right;
-    margin-left: 270px;
+    margin-left: 360px;
     width: 37px;
     height: 37px;
     background-image: url(หัวใจ.png);

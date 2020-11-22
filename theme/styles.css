@@ -23,7 +23,7 @@
 .vl {
     border-right: 1.5px solid rgb(211,211,211);
     height: auto px;
-    width: 150px;
+    width: 200px;
 }
 #line{
     float: left;
@@ -43,6 +43,7 @@
 
 #prestick{
     border-right: 1.5px solid rgb(211,211,211);
+    width: 1200px;
 }
 
 
@@ -79,20 +80,59 @@
     cursor: pointer;
   }
 
-.likebutton{
+  .navbar{
+    width: 100vw;
+}
+#chlang2{
+    position: absolute;
+ right:50px;
+ 
+}
+#imageh2{
+    width: 70px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+#fontset{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+    margin-top: 37px;
+    margin-left:-25px ;
+}
+footer{
+    width:100vw;
+}
+
+.fa{
+    position: absolute;
+    left:170px;
+    cursor:pointer;
+}
+#input{position: relative;
+    margin-left:20px;
     
-        display: inline-block;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        text-align: right;
-        margin-left: 440px;
-        width: 37px;
-        height: 37px;
-        background-image: url(หัวใจ.png);
-        background-size: 37px auto;
-        cursor: pointer;
     
 }
+.likebutton{
+    
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-left: 420px;
+    width: 37px;
+    height: 37px;
+    background-image: url(หัวใจ.png);
+    background-size: 37px auto;
+    cursor: pointer;
+
+}
+strong{
+    font-size: 14px;
+}
+
 
 .circle{position: absolute;
     left: 195px;
@@ -164,13 +204,13 @@ left:80px;
 
 #image{
     width: 350px;  
-    height: auto;  
+    height: 603px;  
     margin: 15px;
 }
 
 #imageh{
     width:190px;  
-    height: auto;  
+    height: 266px;  
     margin: 15px;
 
 }
@@ -217,3 +257,4 @@ footer
     margin-left: 10px;
    
 }
+
