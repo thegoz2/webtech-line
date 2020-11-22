@@ -276,3 +276,8 @@ footer{
  right:50px;
  
 }
+.fa{
+    position: absolute;
+    left:170px;
+    cursor:pointer;
+}
