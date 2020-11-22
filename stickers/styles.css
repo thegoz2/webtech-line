@@ -233,6 +233,16 @@ footer
 footer{
     width:100vw;
 }
+
+.fa{
+    position: absolute;
+    left:170px;
+    cursor:pointer;
+}
+#input{position: relative;
+    left:-20px;
+    margin:0px;
+}
 .likebutton{
     
     display: inline-block;
@@ -246,13 +256,4 @@ footer{
     background-size: 37px auto;
     cursor: pointer;
 
-}
-#input{position: relative;
-    left:-20px;
-    margin:0px;
-}
-.fa{
-    position: absolute;
-    left:170px;
-    cursor:pointer;
 }
