@@ -463,16 +463,60 @@
     "memberpres": [
         {
             "name": "อันนาสาวน้อยจ้ำม่ำ",
-            "Phead": "http://10.0.15.12/it/62070217/project/sticker/อันนาสาวน้อยจ้ำม่ำ/head.png"
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/อันนาสาวน้อยจ้ำม่ำ/head.png"
+            
+           
         },
         {
             "name": "โดนัลด์&เดซี่",
-            "Phead": "http://10.0.15.12/it/62070217/project/sticker/โดนัลด์&เดซี่/head.png"
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดนัลด์&เดซี่/head.png"
+            
+           
         },
         {
             "name": "สติทช์",
-            "Phead": "http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png"
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png"          
+        },
+        {
+            "name": "BROWN&FRIENDS",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/BROWN&FRIENDS/head.png"  
+        },
+        {
+            "name": "ดารินน่ารัก",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/ดารินน่ารัก/head.png"   
+        },
+        {
+            "name": "มิริน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มิริน/head.png"   
+        },
+        {
+            "name": "มนุษย์ผัว!!",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มนุษย์ผัว!!/head.png"   
+        },
+        {
+            "name": "โควี่",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โควี่/head.png"   
+        },
+        {
+            "name": "มูนในวันที่โกรธจัด",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มูนในวันที่โกรธจัด/head.png" 
+        },
+        {
+            "name": "โดราเอมอน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดราเอมอน/head.png"  
+        },
+        {
+            "name": "Snoopy",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Snoopy/head.png"  
+        },
+        {
+            "name": "Useful",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Useful/head.png"   
         }
+       
+        
+        
+
     ],
 
     "memberst": [
@@ -579,76 +623,52 @@
     ],
     "membertpres": [{
         "name": "BLACKPINK",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/BLACKPINK/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/BLACKPINK/head.png"
     },
     {
         "name": "มะลิสามจุกจอมซน",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/มะลิสามจุกจอมซน/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/มะลิสามจุกจอมซน/head.png"
     },
     {
         "name": "หน้ากากทุเรียน",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/หน้ากากทุเรียน/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/หน้ากากทุเรียน/head.png"
     },
     {
         "name": "หมีพูห์",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/หมีพูห์/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/หมีพูห์/head.png"
     },
     {
         "name": "Monsters",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Monsters/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Monsters/head.png"
     },
     {
         "name": "WALL-E",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/WALL-E/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/WALL-E/head.png"
     },
     {
         "name": "ไลอ้อนคิง",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/ไลอ้อนคิง/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/ไลอ้อนคิง/head.png"
     },
     {
         "name": "Cars",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Cars/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Cars/head.png"
     },
     {
         "name": "จูราสสิคเวิลด์",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/จูราสสิคเวิลด์/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/จูราสสิคเวิลด์/head.png"
     },
     {
         "name": "Onward",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Onward/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Onward/head.png"
     },
     {
         "name": "Mandalorian",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Mandalorian/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Mandalorian/head.png"
     },
     {
         "name": "Marvel",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Marvel/head.png",
-    },
-    {
-        "name": "ธีมลุงมังกี้",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/ธีมลุงมังกี้/head.png",
-    },
-    {
-        "name": "Hip",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Hip/head.png",
-    },
-    {
-        "name": "FRANKEY",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/FRANKEY/head.png",
-    },
-    {
-        "name": "Goriha",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Goriha/head.png",
-    },
-    {
-        "name": "Tiny",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/Tiny/head.png",
-    },
-    {
-        "name": "DADA",
-        "Phead":"http://10.0.15.12/it/62070217/project/theme/DADA/head.png",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Marvel/head.png"
     }
-    
+    ]
     
 }
