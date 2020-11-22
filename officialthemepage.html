@@ -268,7 +268,7 @@
                     <!--main stickers preview-->
                     <div class="col">
                         <div class="row">
-                            <img src="stickerpagehead.png" style="margin: 0; padding: 0; width: 100%; height: 100%;">
+                            <img src="themepagehead.png" style="margin: 0; padding: 0; width: 100%; height: 100%;">
                         </div>
 
 
@@ -358,12 +358,12 @@
         function dataReportStatus(data) {
             var put1 = "";
             var put2 = "";
-            for (var i = 0; i < data.memberpres.length; i++) {
+            for (var i = 0; i < data.membertpres.length; i++) {
 
-                put1 += "<li class='officestick'><a href='" + data.memberpres[i].linkweb + "'><img id='imagestick' src='" + data.memberpres[i].Phead + "'><a href='" + data.memberpres[i].linkweb + "'><p style='color:#737373;''>" + data.memberpres[i].name + "</p></li>";  }
-            for (var i = 0; i < data.members.length; i++) {
+                put1 += "<li class='officetheme'><a href='" + data.membertpres[i].linkweb + "'><img id='imagetheme' src='" + data.membertpres[i].Phead + "'><a href='" + data.membertpres[i].linkweb + "'><p style='color:#737373;''>" + data.membertpres[i].name + "</p></li>";  }
+            for (var i = 0; i < data.memberst.length; i++) {
 
-                put2 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p style='color:#737373;''>" + data.members[i].name + "</p></li>";}
+                put2 += "<li class='officetheme'><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p style='color:#737373;''>" + data.memberst[i].name + "</p></li>";}
 
 
             document.getElementById('input').innerHTML += put1;

@@ -1,3 +1,10 @@
+p{
+    font-size: 14px;
+}
+
+strong{
+    font-size: 14px;
+}
 
 li.officestick, li.officetheme{
     width: 150px;
@@ -20,6 +27,7 @@ li {
 
 .annouce{
     cursor:pointer;
+    font-size: 11px;
 }
 .annouce:hover{
     text-decoration: underline;
@@ -50,7 +58,7 @@ li {
 .vl {
     border-right: 1.5px solid rgb(211,211,211);
     height: auto px;
-    width: 250px;
+    width: 200px;
 }
 #line{
     float: left;
