@@ -30,7 +30,7 @@
 .vl {
     border-right: 1.5px solid rgb(211,211,211);
     height: auto px;
-    width: 150px;
+    width: 200px;
 }
 #line{
     float: left;
@@ -157,8 +157,8 @@ left:80px;
 }
 
 #image{
-    width: 160px;  
-    height: 160px;  
+    width: 145px;  
+    height: 145px;  
     margin: 15px;
 }
 #image:hover{
@@ -256,4 +256,7 @@ footer{
     background-size: 37px auto;
     cursor: pointer;
 
+}
+strong{
+    font-size: 14px;
 }
