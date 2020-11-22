@@ -232,3 +232,11 @@ footer
     left:50px;
     margin:-25px;
 }
+.navbar{
+    width: 100vw;
+}
+#chlang2{
+    position: absolute;
+ right:50px;
+ 
+}
