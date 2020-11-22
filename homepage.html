@@ -317,6 +317,7 @@
           <!--suggested stickers-->
           <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
             <div class="col" style="left:20px;">
+              <br>
               <strong>ครีเอเตอร์สติกเกอร์</strong>
               <br>
               <br>
@@ -332,6 +333,7 @@
           <!--suggested theme-->
           <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
             <div class="col" style="left:20px;">
+              <br>
               <strong>ธีมทางการ</strong>
               <br>
               <br>
@@ -349,6 +351,7 @@
           <!--suggested theme-->
           <div class="row" style="border-bottom: 1.5px solid rgb(211,211,211);">
             <div class="col" style="left:20px;">
+              <br>
               <strong>ครีเอเตอร์ธีม</strong>
               <br>
               <br>
@@ -449,19 +452,31 @@
     function dataReportStatus(data) {
       var put1 = "";
       var put2 = "";
+      var put3 = "";
+      var put4 = "";
       for (var i = 0; i < data.members.length; i++) {
 
         put1 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p style='color:#737373;''>" + data.members[i].name + "</p></li>";
-         }
+      }
       for (var j = 0; j < data.memberst.length; j++) {
 
         put2 += "<li class='officetheme'><a href='" + data.memberst[j].linkweb + "'><img id='imagetheme' src='" + data.memberst[j].Phead + "'><a href='" + data.memberst[j].linkweb + "'><br><p style='color:#737373;'''>" + data.memberst[j].name + "</p></li>";
       }
 
+      for (var i = 0; i < data.memberpres.length; i++) {
+
+        put3 += "<li class='officestick'><a href='" + data.memberpres[i].linkweb + "'><img id='imagestick' src='" + data.memberpres[i].Phead + "'><a href='" + data.memberpres[i].linkweb + "'><p style='color:#737373;''>" + data.memberpres[i].name + "</p></li>";
+      }
+      for (var i = 0; i < data.membertpres.length; i++) {
+
+        put4 += "<li class='officetheme'><a href='" + data.membertpres[i].linkweb + "'><img id='imagetheme' src='" + data.membertpres[i].Phead + "'><a href='" + data.membertpres[i].linkweb + "'><p style='color:#737373;''>" + data.membertpres[i].name + "</p></li>";
+      }
 
 
       document.getElementById('input').innerHTML += put1;
       document.getElementById('input3').innerHTML += put2;
+      document.getElementById('input2').innerHTML += put3;
+      document.getElementById('input4').innerHTML += put4;
 
     }
 
