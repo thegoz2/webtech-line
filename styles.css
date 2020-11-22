@@ -218,11 +218,7 @@ li {
     position: absolute;
     right: 50px;
 }
-#chlang2{
-    position: absolute;
- right:50px;
- 
-}
+
 #chlang2 a{
     font-weight:120;
  font-size: 17px;
@@ -253,9 +249,7 @@ footer
     left:50px;
     margin:-25px;
 }
-.navbar{
-    width: 100vw;
-}
+
 footer{
     width:100vw;
 }
@@ -265,4 +259,12 @@ footer{
     margin:0;
     
     
+}
+.navbar{
+    width: 100vw;
+}
+#chlang2{
+    position: absolute;
+ right:50px;
+ 
 }
