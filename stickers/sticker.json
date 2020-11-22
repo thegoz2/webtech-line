@@ -468,28 +468,8 @@
                 "http://10.0.15.12/it/62070217/project/sticker/เวสตี้/39.png",
                 "http://10.0.15.12/it/62070217/project/sticker/เวสตี้/40.png"
             ]
-        },
-        {
-            "name": "อันนาสาวน้อยจ้ำม่ำ",
-            "Phead":"http://10.0.15.12/it/62070217/project/sticker/อันนาสาวน้อยจ้ำม่ำ/head.png",
-            
-           
-        },
-        {
-            "name": "โดนัลด์&เดซี่",
-            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดนัลด์&เดซี่/head.png",
-            
-           
-        },
-        {
-            "name": "สติทช์",
-            "Phead":"http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png",
-            
-           
-        },
+        }
         
-        
-
         
     ]
 }
