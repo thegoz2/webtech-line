@@ -221,6 +221,11 @@ li {
 #chlang2{
     position: absolute;
  right:50px;
+ 
+}
+#chlang2 a{
+    font-weight:120;
+ font-size: 17px;
 }
 
 footer 

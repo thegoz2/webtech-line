@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Line.Store.mE</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Line STORE- เว็บไซต์ไม่ทางการจากเด็กคณะIT</title>
+        <link rel="icon" href="icon.png" type="image/icon type">
+      </head>
 <style>
     * {
         box-sizing: border-box
@@ -133,36 +134,34 @@
 
 <body>
     <div class="margin-0 ">
-        <div class="row">
-            <div class="col">
-                <div class="row" style="background-color:rgb(47, 49, 47);">
-                    <!--Head bar-->
-                    <nav class="navbar" style="background-color: rgb(47, 49, 47);">
-                        <!--logo-->
-                        <a href="store.line.me"><img src="logo.png" width="165px"></img></a>
-                        <!--left side-->
-                        <div class="form-group">
-                            <input type="text" class="circle" placeholder="  ค้นหา..">
-                            <span class="fa fa-search fa-lg" aria-hidden="true"></span>
-
-                        </div>
-                        <!--right side-->
-                        <div class="right">
-                            <div class="sl">
-                                <a class="colorg" href="https://store.line.me/wishlist/"><img id="fixp3" src="heart.png"
-                                        width="25px">
-                                    <p id="fixp2" style="display: inline;"> วิชลิสต์</p>
-                                </a>
-
-                            </div>
-                            <div class="fixp">
-                                <a class="colorg" href="https://store.line.me/wishlist/">
-                                    <p style="display: inline;"> เข้าสู่ระบบ</p>
-                            </div>
-                        </div>
-
-
-                </div>
+        <div class="row" style="width: 100%;">
+          <div class="col">
+    
+            <!--Head bar-->
+            <header class="navbar" style="background-color: rgb(47, 49, 47);">
+    
+              <!--logo-->
+              <a href="http://10.0.15.12/projects/pg50ibh/"><img src="logo.png" width="165px"></img></a>
+              <!--left side-->
+              <div class="form-group">
+                <input type="text" class="circle" placeholder="  ค้นหา..">
+                <span class="fa fa-search fa-lg" aria-hidden="true"></span>
+    
+              </div>
+              <form id="chlang2">
+                <a href=""><img src="heart.png" width="25px"></a>
+                <a href="" class="colorg">วิชลิสต์ </a>
+                <a href="" class="colorg">| เข้าสู่ระบบ </a>
+              </form>
+    
+            </header>
+    
+    
+            <!--right side-->
+    
+    
+    
+          </div>
 
                 <div class="row margin-1">
                     <!--col1-->
@@ -357,12 +356,12 @@
         function dataReportStatus(data) {
             var put1 = "";
             var put2 = "";
+            for (var i = 0; i < data.memberpres.length; i++) {
+
+                put1 += "<li class='officestick'><a href='" + data.memberpres[i].linkweb + "'><img id='imagestick' src='" + data.memberpres[i].Phead + "'><a href='" + data.memberpres[i].linkweb + "'><p style='color:#737373;''>" + data.memberpres[i].name + "</p></li>";  }
             for (var i = 0; i < data.members.length; i++) {
 
-                put1 += "<li><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p>" + data.members[i].name + "</p></li>";
-                put2 += "<li><a href='" + data.memberst[i].linkweb + "'><img id='imagetheme' src='" + data.memberst[i].Phead + "'><a href='" + data.memberst[i].linkweb + "'><p>" + data.memberst[i].name + "</p></li>";
-            }
-
+                put2 += "<li class='officestick'><a href='" + data.members[i].linkweb + "'><img id='imagestick' src='" + data.members[i].Phead + "'><a href='" + data.members[i].linkweb + "'><p style='color:#737373;''>" + data.members[i].name + "</p></li>";}
 
 
             document.getElementById('input').innerHTML += put1;
