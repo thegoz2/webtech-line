@@ -5,9 +5,15 @@
             "creator": "AIKO KUNINOI",
             "description": "Soothing Shiba-dog stickers have come back! You can enjoy LINE with her smile, bow-wow!",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "Phead":"http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/head.jpg",
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/ShibaInu.html",
             "credit":"Copyright © 2014 AIKO KUNINOI All Rights Reserved.",
+=======
+            "Phead": "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/head.jpg",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/ShibaInu.html",
+            "credit": "Copyright © 2014 AIKO KUNINOI All Rights Reserved.",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/1.jpg",
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/2.jpg",
@@ -49,8 +55,6 @@
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/38.jpg",
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/39.jpg",
                 "http://10.0.15.12/it/62070150/project/sticker/shiba%20vol2/40.jpg"
-                
-                
             ]
         },
         {
@@ -58,9 +62,15 @@
             "creator": "N9 Design",
             "description": "สติกเกอร์ชุดนี้อาจมีข้อความไม่เหมาะสม โปรดระวัง หมีหงุดหงิด โฉด ฮาฮา",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "Phead":"http://10.0.15.12/it/62070217/project/sticker/N9/head.png",
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/N9.html",
             "Credit":"© N9 Design. All rights reserved.",
+=======
+            "Phead": "http://10.0.15.12/it/62070217/project/sticker/N9/head.png",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/N9.html",
+            "Credit": "© N9 Design. All rights reserved.",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070217/project/sticker/N9/1.png",
                 "http://10.0.15.12/it/62070217/project/sticker/N9/2.png",
@@ -109,9 +119,15 @@
             "creator": "daasoube",
             "description": "Little cute Thai orange cat. Version 3! About working. Enjoy Meaw.",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/FutoruCat.html",
             "Phead":"http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/head.png",
             "Credit":"daasoube",
+=======
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/FutoruCat.html",
+            "Phead": "http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/head.png",
+            "Credit": "daasoube",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/1.png",
                 "http://10.0.15.12/it/62070037/project/sticker/FutoruCat3/2.png",
@@ -159,55 +175,52 @@
             "creator": "AIKO KUNINOI",
             "description": "The tomboyish Shiba-Puppy stickers have come back! Please have fun playing with her.",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "Phead":"http://10.0.15.12/it/62070123/project/sticker/head.jpg",
             "Credit":"Copyright © 2019 AIKO KUNINOI All Rights Reserved.",
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/puppy.html",
+=======
+            "Phead": "http://10.0.15.12/it/62070123/project/sticker/head.jpg",
+            "Credit": "Copyright © 2019 AIKO KUNINOI All Rights Reserved.",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/puppy.html",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070123/project/sticker/1.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/2.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/3.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/4.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/5.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/6.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/7.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/8.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/9.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/10.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/11.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/12.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/13.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/14.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/15.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/16.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/17.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/18.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/19.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/20.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/21.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/22.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/23.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/24.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/25.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/26.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/27.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/28.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/29.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/30.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/31.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/32.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/33.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/34.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/35.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/36.jpg",
-
                 "http://10.0.15.12/it/62070123/project/sticker/37.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/38.jpg",
                 "http://10.0.15.12/it/62070123/project/sticker/39.jpg",
@@ -219,9 +232,15 @@
             "creator": "Gkomo",
             "description": "เจ้าแมวเหมียวขี้อ้อน อารมณ์อ่อนไหวง่ายสุดๆ",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "Phead":"http://10.0.15.12/it/62070217/project/sticker/เหมียวขอ/head.png",
             "Credit":"©Gkomo",
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/%e0%b9%80%e0%b8%ab%e0%b8%a1%e0%b8%b5%e0%b8%a2%e0%b8%a7%e0%b8%82%e0%b8%ad.html",
+=======
+            "Phead": "http://10.0.15.12/it/62070217/project/sticker/เหมียวขอ/head.png",
+            "Credit": "©Gkomo",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b9%80%e0%b8%ab%e0%b8%a1%e0%b8%b5%e0%b8%a2%e0%b8%a7%e0%b8%82%e0%b8%ad.html",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070217/project/sticker/เหมียวขอ/1.png",
                 "http://10.0.15.12/it/62070217/project/sticker/เหมียวขอ/2.png",
@@ -270,9 +289,15 @@
             "creator": "Gkomo",
             "description": "ลูกเป็ดน้อยเป็นลูกเป็ดเพิ่งเกิดเริ่มหัดพูด ตอนนี้พูดได้แค่เพียงทีละคำ แต่สามารถนำคำมาต่อกันเพื่อเพิ่มความหมายได้นะ!",
             "price": "30THB",
+<<<<<<< HEAD:stickers/sticker.json
             "Phead":"http://10.0.15.12/it/62070217/project/sticker/ลูกเป็ดน้อยงุงิ/head.png",
             "Credit":"@Gkomo",
             "linkweb":"http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+=======
+            "Phead": "http://10.0.15.12/it/62070217/project/sticker/ลูกเป็ดน้อยงุงิ/head.png",
+            "Credit": "@Gkomo",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+>>>>>>> realhomepage:mergeall.json
             "Psticker": [
                 "http://10.0.15.12/it/62070217/project/sticker/ลูกเป็ดน้อยงุงิ/1.png",
                 "http://10.0.15.12/it/62070217/project/sticker/ลูกเป็ดน้อยงุงิ/2.png",
@@ -470,6 +495,220 @@
             ]
         }
         
+<<<<<<< HEAD:stickers/sticker.json
+=======
+    ],
+
+    "memberpres": [
+        {
+            "name": "อันนาสาวน้อยจ้ำม่ำ",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/อันนาสาวน้อยจ้ำม่ำ/head.png"
+            
+           
+        },
+        {
+            "name": "โดนัลด์&เดซี่",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดนัลด์&เดซี่/head.png"
+            
+           
+        },
+        {
+            "name": "สติทช์",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/สติทช์/head.png"          
+        },
+        {
+            "name": "BROWN&FRIENDS",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/BROWN&FRIENDS/head.png"  
+        },
+        {
+            "name": "ดารินน่ารัก",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/ดารินน่ารัก/head.png"   
+        },
+        {
+            "name": "มิริน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มิริน/head.png"   
+        },
+        {
+            "name": "มนุษย์ผัว!!",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มนุษย์ผัว!!/head.png"   
+        },
+        {
+            "name": "โควี่",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โควี่/head.png"   
+        },
+        {
+            "name": "มูนในวันที่โกรธจัด",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/มูนในวันที่โกรธจัด/head.png" 
+        },
+        {
+            "name": "โดราเอมอน",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/โดราเอมอน/head.png"  
+        },
+        {
+            "name": "Snoopy",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Snoopy/head.png"  
+        },
+        {
+            "name": "Useful",
+            "Phead":"http://10.0.15.12/it/62070217/project/sticker/Useful/head.png"   
+        }
+       
         
+>>>>>>> realhomepage:mergeall.json
+        
+
+    ],
+
+    "memberst": [
+        {
+            "name": "สนูปี้กับชาร์ลี บราวน์",
+            "creator": "TV TOKYO Communications Corporation",
+            "description": "ธีมดีไซน์เรียบง่ายจากคู่หูผู้น่ารัก สนูปี้และชาร์ลี บราวน์ ดูแปลกตากว่าใครด้วยดีไซน์ลวดลายบนกระดาษคราฟต์♪ * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/head.jpg",
+            "Credit": "©2019 Peanuts Worldwide LLC",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/1.jpg",
+                "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/2.jpg",
+                "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/3.jpg",
+                "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/4.jpg",
+                "http://10.0.15.12/it/62070150/project/theme/%e0%b8%8a%e0%b8%b2%e0%b8%a3%e0%b8%a3%e0%b8%b5/5.jpg"
+            ]
+        },
+        {
+            "name": "UP ปู่ซ่าบ้าพลัง",
+            "creator": "The Walt Disney Company (Japan) Ltd.",
+            "description": "ธีมจากแอนิเมชัน 'UP ปู่ซ่าบ้าพลัง' Disney และ Pixar! ได้เวลามุ่งสู่ทริปแห่งการผจญภัยไปกับคุณปู่คาร์ลกันแล้ว♪ * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+          
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070217/project/theme/up/head.png",
+            "Credit": "©️Disney/Pixar",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070217/project/theme/up/1.png",
+                "http://10.0.15.12/it/62070217/project/theme/up/2.png",
+                "http://10.0.15.12/it/62070217/project/theme/up/3.png",
+                "http://10.0.15.12/it/62070217/project/theme/up/4.png",
+                "http://10.0.15.12/it/62070217/project/theme/up/5.png"
+            ]
+        },
+        {
+            "name": "สติทช์ ลายเส้นสีเทียน",
+            "creator": "The Walt Disney Company (Japan) Ltd.",
+            "description": "สติทช์จอมป่วนแปลงร่างเป็นจิตรกรเอก ละเลงหน้าจอแชทของคุณให้เต็มไปด้วยสีสันสไตล์สีเทียน ไอคอนแท็บต่างๆ ยังโดนไปด้วย! แหม ทำไมซนอย่างนี้ แต่ดูแล้วน่ารักดี แบบนี้ต้องรีบซื้อแล้วล่ะ * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070037/project/theme/stitch/head.png",
+            "Credit": "©Disney",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070037/project/theme/stitch/1.png",
+                "http://10.0.15.12/it/62070037/project/theme/stitch/2.png",
+                "http://10.0.15.12/it/62070037/project/theme/stitch/3.png",
+                "http://10.0.15.12/it/62070037/project/theme/stitch/4.png",
+                "http://10.0.15.12/it/62070037/project/theme/stitch/5.png"
+            ]
+        },
+        {
+            "name": "Shiba-Puppy! Theme",
+            "creator": "AIKO KUNINOI",
+            "description": "This is small and energetic Shiba-Puppy Theme! The cute puppy color your LINE.",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+          
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070123/project/theme/head.jpg",
+            "Credit": "Copyright © 2018 AIKO KUNINOI All Rights Reserved.",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070123/project/theme/1.jpg",
+                "http://10.0.15.12/it/62070123/project/theme/2.jpg",
+                "http://10.0.15.12/it/62070123/project/theme/3.jpg",
+                "http://10.0.15.12/it/62070123/project/theme/4.jpg",
+                "http://10.0.15.12/it/62070123/project/theme/5.jpg"
+            ]
+        },
+        {
+            "name": "Hanako เพื่อนคู่ซี้",
+            "creator": "kiki",
+            "description": "ธีมน่ารักจาก Hanako กับเจ้าหมีเพื่อนคู่ซี้ที่สนิทกันมากมาย * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+          
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070217/project/theme/Hanako/head.png",
+            "Credit": "©kikipuri",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/1.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/2.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/3.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/4.png",
+                "http://10.0.15.12/it/62070217/project/theme/Hanako/5.png"
+            ]
+        },
+        {
+            "name": "Shiro ไปจ่ายตลาดกันเถอะ",
+            "creator": "tomoko ishii",
+            "description": "Shiro มีธีมทางการชุดแรกแล้วนะทุกคน! จัดไปด้วยรูปที่วาดขึ้นมาสำหรับธีมชุดนี้โดยเฉพาะ ดีไซน์จ่ายตลาด ซื้อของน่าอร่อยมาเพียบเลย! * จะมีการอัพเดตธีมเป็นระยะจนถึง 180 วันหลังสิ้นสุดการจำหน่าย",
+            "linkweb": "http://10.0.15.12/projects/pg50ibh/stickers/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%94%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%87%e0%b8%b8%e0%b8%87%e0%b8%b4..html",
+          
+            "price": "90THB",
+            "Phead": "http://10.0.15.12/it/62070217/project/theme/Shiro/head.png",
+            "Credit": "©Tomoko　Ishii",
+            "Ptheme": [
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/1.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/2.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/3.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/4.png",
+                "http://10.0.15.12/it/62070217/project/theme/Shiro/5.png"
+            ]
+        }
+    ],
+    "membertpres": [{
+        "name": "BLACKPINK",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/BLACKPINK/head.png"
+    },
+    {
+        "name": "มะลิสามจุกจอมซน",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/มะลิสามจุกจอมซน/head.png"
+    },
+    {
+        "name": "หน้ากากทุเรียน",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/หน้ากากทุเรียน/head.png"
+    },
+    {
+        "name": "หมีพูห์",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/หมีพูห์/head.png"
+    },
+    {
+        "name": "Monsters",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Monsters/head.png"
+    },
+    {
+        "name": "WALL-E",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/WALL-E/head.png"
+    },
+    {
+        "name": "ไลอ้อนคิง",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/ไลอ้อนคิง/head.png"
+    },
+    {
+        "name": "Cars",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Cars/head.png"
+    },
+    {
+        "name": "จูราสสิคเวิลด์",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/จูราสสิคเวิลด์/head.png"
+    },
+    {
+        "name": "Onward",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Onward/head.png"
+    },
+    {
+        "name": "Mandalorian",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Mandalorian/head.png"
+    },
+    {
+        "name": "Marvel",
+        "Phead":"http://10.0.15.12/it/62070217/project/theme/Marvel/head.png"
+    }
     ]
+    
 }

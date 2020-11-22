@@ -1,5 +1,38 @@
+<<<<<<< HEAD:stickers/styles.css
 .annouce{
     cursor:pointer;
+=======
+p{
+    font-size: 14px;
+}
+
+strong{
+    font-size: 14px;
+}
+
+li.officestick, li.officetheme{
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    margin: 20px;
+    
+}
+li.officestick{
+    margin-bottom: 40px;
+}
+li.officetheme{
+    margin-bottom:80px ;
+}
+li {
+    display: list-item;
+    list-style: none;
+    
+}
+
+.annouce{
+    cursor:pointer;
+    font-size: 11px;
+>>>>>>> realhomepage:styles3.css
 }
 .annouce:hover{
     text-decoration: underline;
@@ -87,7 +120,24 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD:stickers/styles.css
 
+=======
+.likebutton{
+    
+        display: inline-block;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        text-align: right;
+        margin-left: 390px;
+        width: 37px;
+        height: 37px;
+        background-image: url(หัวใจ.png);
+        background-size: 37px auto;
+        cursor: pointer;
+    
+}
+>>>>>>> realhomepage:styles3.css
 
 .circle{position: absolute;
     left: 195px;
@@ -120,11 +170,15 @@
     pointer-events: none;
     color: rgb(100, 100, 100);
 }
+<<<<<<< HEAD:stickers/styles.css
 .right{
     position: absolute;
     width: 1000px;
     left:1350px;
 }
+=======
+
+>>>>>>> realhomepage:styles3.css
 .sl{
     top:-18px;
     border-right: 0.5px solid rgb(100,100,100);
@@ -140,6 +194,7 @@
    
 }
 
+<<<<<<< HEAD:stickers/styles.css
 .fixp{
 position: absolute;
 top:-8px;
@@ -161,6 +216,14 @@ left:80px;
     width: 145px;  
     height: 145px;  
     margin: 20px;
+=======
+
+
+#image{
+    width: 160px;  
+    height: auto;  
+    margin: 15px;
+>>>>>>> realhomepage:styles3.css
 }
 #image:hover{
     transform: scale(1.5);
@@ -174,17 +237,43 @@ left:80px;
 
 }
 
+<<<<<<< HEAD:stickers/styles.css
+=======
+#imageh2{
+    width: 70px;
+}
+#imagestick{
+    height: 120px;
+    width: 120px;
+  
+    display: inline;
+}
+#imagetheme{
+    height: 168px;
+    width: 120px;
+    display: inline;
+}
+>>>>>>> realhomepage:styles3.css
 
 #p2{
     display: inline;
     color: grey;
+<<<<<<< HEAD:stickers/styles.css
     text-decoration: underline;
+=======
+    text-decoration:nderline;
+>>>>>>> realhomepage:styles3.css
     font-size: 8px;
     
 }
 #chlang{
     position: absolute;
     right: 50px;
+}
+
+#chlang2 a{
+    font-weight:120;
+ font-size: 17px;
 }
 
 footer 
@@ -209,7 +298,25 @@ footer
     margin-left: 10px;
    
 }
+<<<<<<< HEAD:stickers/styles.css
 
+=======
+#input{position: relative;
+    left:50px;
+    margin:-25px;
+}
+
+footer{
+    width:100vw;
+}
+#input, #input2, #input3, #input4{
+    position: relative;
+    left:-65px;
+    margin:0;
+    
+    
+}
+>>>>>>> realhomepage:styles3.css
 .navbar{
     width: 100vw;
 }
@@ -218,6 +325,7 @@ footer
  right:50px;
  
 }
+<<<<<<< HEAD:stickers/styles.css
 #imageh2{
     width: 70px;
     height: 70px;
@@ -235,10 +343,13 @@ footer{
     width:100vw;
 }
 
+=======
+>>>>>>> realhomepage:styles3.css
 .fa{
     position: absolute;
     left:170px;
     cursor:pointer;
+<<<<<<< HEAD:stickers/styles.css
 }
 #input{position: relative;
     margin-left:20px ;
@@ -260,3 +371,6 @@ footer{
 strong{
     font-size: 14px;
 }
+=======
+}
+>>>>>>> realhomepage:styles3.css
